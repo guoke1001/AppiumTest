@@ -2,6 +2,7 @@
 __author__ = 'tangyao'
 
 from appium import webdriver
+from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
 
 '''
@@ -52,17 +53,31 @@ class TestAppium:
         size=self.driver.get_window_size()
         width=size["width"]
         height=size["height"]
-        self.driver.swipe(width*0.8,height*0.8,width*0.1,height*0.2,1000)
+        self.driver.swipe(width*0.8,height*0.8,width*0.8,height*0.1,1000)
+    def test_long_press(self):
+        self.driver.find_element_by_xpath("//*[@text='行情']").click()
+        el=self.driver.find_element_by_xpath("//*[@text='伊利股份']")
+        TouchAction.press().wait().move_to().perform()
+        '''
+        press按住某个空间，wait等待，moveto移动到某个空间，perform执行操作
+        long_press长按操作
+        '''
+        TouchAction(self.driver).long_press(el,3000).perform()
+
+
+
+
+
     def test_uiaumator(self):
         self.driver.find_element_by_xpath("//*[@text='行情']").click()
         self.driver.find_element_by_xpath("//*[@text='市场']").click()
 
-        self.driver.find_element_by_android_uiautomator(
-            'new UiScrollable(new UiSelector().scrollable(true).instance(2)).scrollIntoView(new UiSelector().text("金通灵").instance(0));').click()
-        self.driver.find_element_by_android_uiautomator(
-            '''new UiScrollable
-            (new UiSelector().scrollable(true).instance(0)).scrollIntoView(
-            new UiSelector().text("HooBl").instance(0));''').click()
+        # self.driver.find_element_by_android_uiautomator(
+        #     'new UiScrollable(new UiSelector().scrollable(true).instance(2)).scrollIntoView(new UiSelector().text("金通灵").instance(0));').click()
+        # self.driver.find_element_by_android_uiautomator(
+        #     '''new UiScrollable
+        #     (new UiSelector().scrollable(true).instance(0)).scrollIntoView(
+        #     new UiSelector().text("HooBl").instance(0));''').click()
 
     def teardown(self):
         # self.driver.quit()
