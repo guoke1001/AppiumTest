@@ -4,13 +4,18 @@ __author__ = 'tangyao'
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
-
+import pytest
+from hamcrest import *
 '''
 appium入门，简单事例
+
+pytest  setup_class 类初始化时运行一次后面不再运行 setup每次都运行
+hamcrest https://pypi.org/project/PyHamcrest/
 '''
 
 class TestAppium:
 
+    @classmethod
     def setup(self):
         server = "http://localhost:4723/wd/hub"
         caps = {}
@@ -44,7 +49,6 @@ class TestAppium:
         # print(self.driver.current_url)
 
 
-        # self.driver.find_element_by_id("com.xueqiu.android:id/user_profile_icon").click()
 
     def testswipe(self):
         self.driver.find_element_by_xpath("//*[@text='行情']").click()
@@ -79,8 +83,29 @@ class TestAppium:
         #     (new UiSelector().scrollable(true).instance(0)).scrollIntoView(
         #     new UiSelector().text("HooBl").instance(0));''').click()
 
+    @pytest.mark.parametrize("keywords,stock_type,prices",[
+         ("阿里巴巴","BABA","202.67"),
+         ("小米","01810","10.20")
+    ])
+    def test_search(self,keywords,stock_type,prices):
+        self.driver.find_element_by_id("com.xueqiu.android:id/tv_search").click()
+        self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys(keywords)
+        # lis=self.driver.find_elements_by_id("com.xueqiu.android:id/name")
+        self.driver.find_elements_by_id("com.xueqiu.android:id/name")[0].click()
+
+
+        # for i in lis:
+        #     if i.text==u"阿里巴巴":
+        #         i.click()
+        #         break
+        price = self.driver.find_element_by_xpath("//*[contains(@text,'"+stock_type+"')]/../../..//*[contains(@resource-id,'current_price')]").text
+        assert price==prices
+        # self.driver.find_element_by_xpath("//*[contains(@text,'阿里')]")
+
+
+
     def teardown(self):
-        # self.driver.quit()
+        self.driver.quit()
         pass
 
 
