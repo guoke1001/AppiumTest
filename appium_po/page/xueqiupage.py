@@ -3,7 +3,8 @@ __author__ = 'tangyao'
 
 from appium import webdriver
 
-from appium_po.page.searchpage import SearchPage
+from appium_po.page.jiaoyi.trade.tradepage import TradePage
+from appium_po.page.search.searchpage import SearchPage
 
 
 class XueQiuPage:
@@ -11,7 +12,7 @@ class XueQiuPage:
         server = "http://localhost:4723/wd/hub"
         caps = {}
         caps["platformName"] = "android"
-        caps["deviceName"] = "emulator-5554"
+        caps["deviceName"] = "5483e9c3"
         caps["appPackage"] = "com.xueqiu.android"
         caps["appActivity"] = ".view.WelcomeActivityAlias"
         # caps["app"] = "./app/xueqiu.apk"
@@ -21,10 +22,13 @@ class XueQiuPage:
         caps["autoGrantPermissions"] = True
 
         self.driver = webdriver.Remote(server, caps)
-        #隐示等待
+        #隐式等待
         self.driver.implicitly_wait(15)
 
 
     def goto_search(self):
         self.driver.find_element_by_id("com.xueqiu.android:id/tv_search").click()
         return SearchPage(self.driver)
+    def goto_trade(self):
+        self.driver.find_element_by_xpath("//*[@text='交易']").click()
+        return TradePage(self.driver)
