@@ -1,0 +1,11 @@
+2020-05-19 23:30:04,037 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:30:04,049 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:30:04,052 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:30:04,052 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:30:04,053 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:30:23,505 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="9d78c61d-249f-4411-a647-a975c848d17e")>
+2020-05-19 23:30:23,507 DEFAULT INFO 启动App成功
+2020-05-19 23:30:25,513 DEFAULT INFO test
+2020-05-19 23:30:31,794 DEFAULT INFO page
+2020-05-19 23:30:33,787 DEFAULT INFO 111111111111111您尚未安装微信，请先安装微信
+2020-05-19 23:30:34,555 DEFAULT INFO 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:30:33_登录.png

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed May 20 00:01:15 CST 2020","Wed May 20 00:01:21 CST 2020","6381","test_case","test_login","TestLogin","","","登录用例",""

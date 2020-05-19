@@ -1,0 +1,135 @@
+2020-05-19 23:26:05,398 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:26:05,399 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:26:05,407 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:26:05,407 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:26:05,408 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:26:05,408 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:26:05,409 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:26:05,409 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:26:05,410 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:26:05,411 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:26:07,042 DEFAULT INFO 生成报告……
+2020-05-19 23:26:14,931 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:26:14,933 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:26:14,940 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:26:14,941 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:26:14,941 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:26:14,942 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:26:14,942 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:26:14,943 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:26:14,943 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:26:14,944 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:26:31,398 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="c3731fba-c868-4684-a4be-353968098e47")>
+2020-05-19 23:26:31,400 DEFAULT INFO 启动App成功
+2020-05-19 23:26:33,407 DEFAULT INFO test
+2020-05-19 23:26:35,178 DEFAULT INFO page
+2020-05-19 23:26:37,200 DEFAULT INFO 111111111111111您尚未安装微信，请先安装微信
+2020-05-19 23:26:37,958 DEFAULT INFO 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:26:37_登录.png
+2020-05-19 23:26:38,233 DEFAULT INFO 生成报告……
+2020-05-19 23:29:56,740 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:29:56,741 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:29:56,750 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:29:56,750 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:29:56,751 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:29:56,751 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:29:56,752 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:29:56,752 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:29:56,753 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:29:56,755 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:29:58,557 DEFAULT INFO 生成报告……
+2020-05-19 23:30:03,796 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:30:03,804 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:30:03,805 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:30:03,806 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:30:03,807 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:30:04,037 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:30:04,049 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:30:04,052 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:30:04,052 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:30:04,053 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:30:23,505 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="9d78c61d-249f-4411-a647-a975c848d17e")>
+2020-05-19 23:30:23,507 DEFAULT INFO 启动App成功
+2020-05-19 23:30:25,513 DEFAULT INFO test
+2020-05-19 23:30:26,192 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="15bc7337-9f9c-4106-bd6f-3db797324ee2")>
+2020-05-19 23:30:26,193 DEFAULT INFO 启动App成功
+2020-05-19 23:30:28,210 DEFAULT INFO test
+2020-05-19 23:30:31,794 DEFAULT INFO page
+2020-05-19 23:30:33,787 DEFAULT INFO 111111111111111您尚未安装微信，请先安装微信
+2020-05-19 23:30:34,555 DEFAULT INFO 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:30:33_登录.png
+2020-05-19 23:30:35,004 DEFAULT INFO 生成报告……
+2020-05-19 23:42:38,099 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:42:38,099 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:42:38,110 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:42:38,111 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:42:38,113 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:42:38,112 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:42:38,114 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:42:38,115 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:42:38,116 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:42:38,116 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:42:39,623 DEFAULT INFO 生成报告……
+2020-05-19 23:45:11,487 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:45:11,487 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:45:11,497 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:45:11,497 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:45:11,498 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:45:11,498 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:45:11,498 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:45:11,499 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:45:11,499 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:45:11,500 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:45:24,450 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="52d1478a-c78a-47d4-889a-45a02177181e")>
+2020-05-19 23:45:24,453 DEFAULT INFO 启动App成功
+2020-05-19 23:45:26,460 DEFAULT INFO test
+2020-05-19 23:45:32,831 DEFAULT INFO page
+2020-05-19 23:45:34,912 DEFAULT INFO 111111111111111您尚未安装微信，请先安装微信
+2020-05-19 23:45:35,772 DEFAULT INFO 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:45:34_登录.png
+2020-05-19 23:45:40,949 DEFAULT INFO 生成报告……
+2020-05-19 23:46:01,831 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:46:01,832 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:46:01,838 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:46:01,838 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:46:01,840 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:46:01,843 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:46:01,843 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:46:01,844 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:46:01,844 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:46:01,848 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:46:03,629 DEFAULT INFO 生成报告……
+2020-05-19 23:47:58,667 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:47:58,667 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:48:03,686 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:48:03,686 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:48:03,688 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:48:03,688 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:48:03,689 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:48:03,689 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:48:03,690 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:48:03,690 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:48:15,148 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="0bfb65bb-0d6b-460b-93dc-0a5f14f5ede0")>
+2020-05-19 23:48:15,158 DEFAULT INFO 启动App成功
+2020-05-19 23:48:17,164 DEFAULT INFO test
+2020-05-19 23:48:22,406 DEFAULT INFO page
+2020-05-19 23:48:24,536 DEFAULT INFO 111111111111111您尚未安装微信，请先安装微信
+2020-05-19 23:48:25,365 DEFAULT INFO 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:48:24_登录.png
+2020-05-19 23:48:25,670 DEFAULT INFO 生成报告……
+2020-05-19 23:58:30,584 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+2020-05-19 23:58:30,584 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
+2020-05-19 23:58:35,597 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:58:35,597 DEFAULT INFO 读取配置文件成功
+2020-05-19 23:58:35,598 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:58:35,598 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-05-19 23:58:35,599 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:58:35,599 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+2020-05-19 23:58:35,599 DEFAULT INFO http://localhost:4727/wd/hub
+2020-05-19 23:58:35,599 DEFAULT INFO http://localhost:4725/wd/hub
+2020-05-19 23:58:49,904 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="0003e683-c230-4199-b4cf-0ccb5016feaf")>
+2020-05-19 23:58:49,913 DEFAULT INFO 启动App成功
+2020-05-19 23:58:51,917 DEFAULT INFO test
+2020-05-19 23:58:53,059 DEFAULT INFO <appium.webdriver.webdriver.WebDriver (session="e92d6af2-100b-4ea1-b3ae-0e4b0c7c6d29")>
+2020-05-19 23:58:53,061 DEFAULT INFO 启动App成功
+2020-05-19 23:58:55,066 DEFAULT INFO test
+2020-05-19 23:58:57,629 DEFAULT INFO page
+2020-05-19 23:58:59,661 DEFAULT INFO 111111111111111您尚未安装微信，请先安装微信
+2020-05-19 23:59:00,442 DEFAULT INFO 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:58:59_登录.png
+2020-05-19 23:59:02,090 DEFAULT INFO 生成报告……

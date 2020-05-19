@@ -11,8 +11,6 @@ class TradePage:
     _hs=(By.XPATH,"//*[@text='沪深']")
     _open_hs=(By.XPATH,"//*[contains(@text,'A股开户')]")
     _us_trade=((By.XPATH,"//*[contains(@text,'港美')]"))
-    def __init__(self,driver:WebDriver):
-        self.driver=driver
 
     def open_hs(self):
 

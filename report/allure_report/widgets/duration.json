@@ -1,0 +1,11 @@
+[ {
+  "uid" : "3b9e56842dc613ec",
+  "name" : "登录用例",
+  "time" : {
+    "start" : 1589904075605,
+    "stop" : 1589904081986,
+    "duration" : 6381
+  },
+  "status" : "broken",
+  "severity" : "critical"
+} ]

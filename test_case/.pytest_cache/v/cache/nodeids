@@ -1,0 +1,7 @@
+[
+  "test_search.py::TestSearch::test_get_price",
+  "test_trade.py::TestTrade::test_open_hs",
+  "test_trade.py::TestTrade::test_us",
+  "test_login.py::TestLogin::test_login_by_webchat",
+  "test_swipe.py::TestSwipe::test_swipe"
+]

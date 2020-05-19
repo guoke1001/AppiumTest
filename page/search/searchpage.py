@@ -8,8 +8,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 class SearchPage():
 
-    def __init__(self,driver:WebDriver):
-        self.driver=driver
 
     def search(self,keywords):
         self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys(keywords)

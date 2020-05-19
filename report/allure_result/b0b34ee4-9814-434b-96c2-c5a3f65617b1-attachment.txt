@@ -1,0 +1,11 @@
+INFO     DEFAULT:driver_config.py:22 appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
+INFO     DEFAULT:driver_config.py:33 读取配置文件成功
+INFO     DEFAULT:driver_config.py:34 {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+INFO     DEFAULT:driver_config.py:52 {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
+INFO     DEFAULT:driver_config.py:53 http://localhost:4725/wd/hub
+INFO     DEFAULT:driver_config.py:57 <appium.webdriver.webdriver.WebDriver (session="21925391-64cd-448a-9b61-525c3bb2d0f0")>
+INFO     DEFAULT:driver_config.py:58 启动App成功
+INFO     DEFAULT:test_login.py:24 test
+INFO     DEFAULT:use_profile_page.py:18 page
+INFO     DEFAULT:use_profile_page.py:21 111111111111111您尚未安装微信，请先安装微信
+INFO     DEFAULT:base_page.py:78 截图文件保存在:/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-20 00:01:20_登录.png

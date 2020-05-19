@@ -12,21 +12,21 @@ class gesture_mainpulation:
         self.x = self.driver.get_window_size()['width']
         self.y = self.driver.get_window_size()['height']
     def swipe_left(self):
-        '''左滑'''
+        '''左滑屏幕'''
 
-        self.driver.swipe(self.x*3/4,self.y/4,self.x/4,self.y/4)
+        self.driver.swipe(self.x*0.8,self.y/2,self.x/2,self.y*0.1)
 
     def swipe_right(self):
-        '''右滑'''
+        '''右滑屏幕'''
 
-        self.driver.swipe(self.x/4,self.y/4,self.x*3/4,self.y/4)
+        self.driver.swipe(self.x*0.1,self.y/2,self.x*0.8,self.y/2)
 
     def swipe_down(self):
-        '''下滑'''
+        '''下滑屏幕'''
 
-        self.driver.swipe(self.x/2,self.y*3/5,self.x/2,self.y/5)
+        self.driver.swipe(self.x/2,self.y*0.1,self.x/2,self.y*0.8,500)
 
 
     def swipe_up(self):
-        '''上滑'''
-        self.driver.swipe(self.x/2,self.y/4,self.x/2,self.y*3/4)
+        '''上滑屏幕'''
+        self.driver.swipe(self.x/2,self.y*0.9,self.x/2,self.y*0.2,500)

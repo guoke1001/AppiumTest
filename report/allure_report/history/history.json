@@ -1,0 +1,91 @@
+{
+  "14c45df6bfcc357fcdcea06356c27bee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "3b9e56842dc613ec",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1589904075605,
+        "stop" : 1589904081986,
+        "duration" : 6381
+      }
+    }, {
+      "uid" : "7dbaf30c33e2cd09",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1589903935066,
+        "stop" : 1589903941455,
+        "duration" : 6389
+      }
+    }, {
+      "uid" : "8d3ddd24890f106f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589903297164,
+        "stop" : 1589903305367,
+        "duration" : 8203
+      }
+    }, {
+      "uid" : "6ba3434cbc33b051",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4725): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1105ce490>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+      "time" : {
+        "start" : 1589903161830,
+        "stop" : 1589903161830,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e4a35786787276b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589903126460,
+        "stop" : 1589903135776,
+        "duration" : 9316
+      }
+    }, {
+      "uid" : "df8eb8b0bc95169a",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4727): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10de8c9d0>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+      "time" : {
+        "start" : 1589902958098,
+        "stop" : 1589902958098,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12aeb6021e744895",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1589902228210,
+        "stop" : 1589902233317,
+        "duration" : 5107
+      }
+    }, {
+      "uid" : "ffb4dc9cc9c39683",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589901993407,
+        "stop" : 1589901997959,
+        "duration" : 4552
+      }
+    }, {
+      "uid" : "ebf7dd9cbfa359f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=4727): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10f7bc350>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+      "time" : {
+        "start" : 1589901965398,
+        "stop" : 1589901965398,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,3 @@
+first
+('xpath', "//*[@class='android.widget.Toast']")
+/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:45:34_登录.png

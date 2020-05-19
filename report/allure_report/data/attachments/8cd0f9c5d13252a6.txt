@@ -1,0 +1,4 @@
+first
+('id', 'com.xueqiu.android:id/tv_skip')
+('xpath', "//*[@class='android.widget.Toast']")
+/Users/tangyao/PycharmProjects/AppiumTest/screenshot/2020-05-19 23:48:24_登录.png
