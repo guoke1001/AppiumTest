@@ -1,0 +1,347 @@
+2020-05-20 23:02:15:809 - [35m[Appium][39m Welcome to Appium v1.14.1
+2020-05-20 23:02:15:812 - [35m[Appium][39m Non-default server args:
+2020-05-20 23:02:15:812 - [35m[Appium][39m   port: 4727
+2020-05-20 23:02:15:813 - [35m[Appium][39m   bootstrapPort: 6727
+2020-05-20 23:02:15:813 - [35m[Appium][39m   logTimestamp: true
+2020-05-20 23:02:15:813 - [35m[Appium][39m   localTimezone: true
+2020-05-20 23:02:15:813 - [35m[Appium][39m   udid: emulator-5554
+2020-05-20 23:02:15:814 - [35m[Appium][39m Deprecated server args:
+2020-05-20 23:02:15:814 - [35m[Appium][39m   [31m-U,--udid[39m => --default-capabilities '{"udid":"emulator-5554"}'
+2020-05-20 23:02:15:814 - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2020-05-20 23:02:15:815 - [35m[Appium][39m   udid: emulator-5554
+2020-05-20 23:02:15:838 - [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4727
+2020-05-20 23:02:18:359 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+2020-05-20 23:02:18:359 - [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]},"desiredCapabilities":{"platformName":"Android","deviceName":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true}}[39m
+2020-05-20 23:02:18:361 - [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]}]
+2020-05-20 23:02:18:362 - [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1589986938362 (23:02:18 GMT+0800 (China Standard Time))
+2020-05-20 23:02:18:366 - [35m[BaseDriver][39m The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-05-20 23:02:18:371 - [35m[Appium][39m 
+2020-05-20 23:02:18:371 - [35m[Appium][39m ======================================================================
+2020-05-20 23:02:18:372 - [35m[Appium][39m   DEPRECATION WARNING:
+2020-05-20 23:02:18:372 - [35m[Appium][39m 
+2020-05-20 23:02:18:372 - [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+2020-05-20 23:02:18:372 - [35m[Appium][39m   capabilities for this Android session
+2020-05-20 23:02:18:372 - [35m[Appium][39m 
+2020-05-20 23:02:18:372 - [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+2020-05-20 23:02:18:374 - [35m[Appium][39m   UiAutomator2 Driver
+2020-05-20 23:02:18:374 - [35m[Appium][39m 
+2020-05-20 23:02:18:374 - [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+2020-05-20 23:02:18:374 - [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+2020-05-20 23:02:18:375 - [35m[Appium][39m   platforms
+2020-05-20 23:02:18:375 - [35m[Appium][39m 
+2020-05-20 23:02:18:375 - [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+2020-05-20 23:02:18:375 - [35m[Appium][39m   'automationName=UiAutomator1'
+2020-05-20 23:02:18:375 - [35m[Appium][39m 
+2020-05-20 23:02:18:375 - [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+2020-05-20 23:02:18:375 - [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+2020-05-20 23:02:18:375 - [35m[Appium][39m 
+2020-05-20 23:02:18:376 - [35m[Appium][39m   For more information about drivers, please visit 
+2020-05-20 23:02:18:376 - [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-05-20 23:02:18:376 - [35m[Appium][39m   'Drivers' menu
+2020-05-20 23:02:18:376 - [35m[Appium][39m 
+2020-05-20 23:02:18:376 - [35m[Appium][39m ======================================================================
+2020-05-20 23:02:18:376 - [35m[Appium][39m 
+2020-05-20 23:02:18:642 - [35m[Appium][39m Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.34.0) session
+2020-05-20 23:02:18:645 - [35m[Appium][39m Capabilities:
+2020-05-20 23:02:18:645 - [35m[Appium][39m   platformName: Android
+2020-05-20 23:02:18:645 - [35m[Appium][39m   udid: emulator-5554
+2020-05-20 23:02:18:646 - [35m[Appium][39m   deviceName: emulator-5554
+2020-05-20 23:02:18:646 - [35m[Appium][39m   appPackage: com.xueqiu.android
+2020-05-20 23:02:18:646 - [35m[Appium][39m   platformVersion: 9
+2020-05-20 23:02:18:647 - [35m[Appium][39m   appActivity: .view.WelcomeActivityAlias
+2020-05-20 23:02:18:647 - [35m[Appium][39m   unicodeKeyboard: true
+2020-05-20 23:02:18:647 - [35m[Appium][39m   resetKeyboard: true
+2020-05-20 23:02:18:647 - [35m[Appium][39m   newCommandTimeout: 120
+2020-05-20 23:02:18:647 - [35m[Appium][39m   systemPort: 6727
+2020-05-20 23:02:18:647 - [35m[Appium][39m   noReset: true
+2020-05-20 23:02:18:647 - [35m[Appium][39m   autoGrantPermissions: true
+2020-05-20 23:02:18:653 - [debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+2020-05-20 23:02:18:653 - [debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+2020-05-20 23:02:18:653 - [debug] [35m[BaseDriver][39m   "alwaysMatch": {
+2020-05-20 23:02:18:653 - [debug] [35m[BaseDriver][39m     "platformName": "Android",
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:udid": "emulator-5554",
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:deviceName": "emulator-5554",
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:appPackage": "com.xueqiu.android",
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:platformVersion": "9",
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:appActivity": ".view.WelcomeActivityAlias",
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:unicodeKeyboard": true,
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:resetKeyboard": true,
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 120,
+2020-05-20 23:02:18:654 - [debug] [35m[BaseDriver][39m     "appium:systemPort": 6727,
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m     "appium:noReset": true,
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m   },
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m   "firstMatch": [
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m     {}
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m   ]
+2020-05-20 23:02:18:655 - [debug] [35m[BaseDriver][39m }
+2020-05-20 23:02:18:670 - [35m[BaseDriver][39m Session created with session id: eeddb93a-b289-4cb4-a204-98f3da3f49f3
+2020-05-20 23:02:18:769 - [35m[ADB][39m Found 42 'build-tools' folders under '/Users/tangyao/Android/sdk' (newest first):
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/30.0.0-rc2
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/29.0.2
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/29.0.0-rc2
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.3
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.2
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.1
+2020-05-20 23:02:18:770 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.0
+2020-05-20 23:02:18:771 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.0-rc2
+2020-05-20 23:02:18:771 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.0-rc1
+2020-05-20 23:02:18:771 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/27.0.3
+2020-05-20 23:02:18:771 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/26.0.1
+2020-05-20 23:02:18:771 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/26.0.0
+2020-05-20 23:02:18:772 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.3
+2020-05-20 23:02:18:772 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.2
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.1
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.0
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.3
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.2
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.1
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.0
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.3
+2020-05-20 23:02:18:773 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.2
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.1
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.0
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/22.0.1
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/22.0.0
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.1.2
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.1.1
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.1.0
+2020-05-20 23:02:18:774 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.0.2
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.0.1
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.0.0
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/20.0.0
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.1.0
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.3
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.2
+2020-05-20 23:02:18:775 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.1
+2020-05-20 23:02:18:776 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.0
+2020-05-20 23:02:18:776 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/18.1.1
+2020-05-20 23:02:18:776 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/18.1.0
+2020-05-20 23:02:18:776 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/18.0.1
+2020-05-20 23:02:18:776 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/17.0.0
+2020-05-20 23:02:18:780 - [35m[ADB][39m Using 'adb' from '/Users/tangyao/Android/sdk/platform-tools/adb'
+2020-05-20 23:02:18:781 - [35m[AndroidDriver][39m Retrieving device list
+2020-05-20 23:02:18:781 - [debug] [35m[ADB][39m Trying to find a connected android device
+2020-05-20 23:02:18:782 - [debug] [35m[ADB][39m Getting connected devices...
+2020-05-20 23:02:18:831 - [debug] [35m[ADB][39m 2 device(s) connected
+2020-05-20 23:02:18:832 - [35m[AndroidDriver][39m Using device: emulator-5554
+2020-05-20 23:02:18:833 - [35m[ADB][39m Using 'adb' from '/Users/tangyao/Android/sdk/platform-tools/adb'
+2020-05-20 23:02:18:833 - [debug] [35m[ADB][39m Setting device id to emulator-5554
+2020-05-20 23:02:18:834 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2020-05-20 23:02:18:867 - [debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 23
+2020-05-20 23:02:18:868 - [debug] [35m[ADB][39m Device API level: 23
+2020-05-20 23:02:18:868 - [35m[AndroidDriver][39m No app sent in, not parsing package/activity
+2020-05-20 23:02:18:868 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2020-05-20 23:02:18:877 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2020-05-20 23:02:18:891 - [debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+2020-05-20 23:02:18:892 - [debug] [35m[ADB][39m Getting install status for io.appium.settings
+2020-05-20 23:02:18:892 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2020-05-20 23:02:18:921 - [debug] [35m[ADB][39m 'io.appium.settings' is installed
+2020-05-20 23:02:18:922 - [debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+2020-05-20 23:02:18:922 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2020-05-20 23:02:18:946 - [35m[ADB][39m Using 'apkanalyzer' from '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer'
+2020-05-20 23:02:18:946 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer' with args ["manifest","print","/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.14.1@io.appium.settings/apks/settings_apk-debug.apk"]
+2020-05-20 23:02:22:005 - [debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2020-05-20 23:02:22:007 - [debug] [35m[ADB][39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.14.1@io.appium.settings/apks/settings_apk-debug.apk'
+2020-05-20 23:02:22:008 - [debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+2020-05-20 23:02:22:008 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2020-05-20 23:02:22:034 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f io\.appium\.settings'
+2020-05-20 23:02:22:060 - [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+2020-05-20 23:02:22:060 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2020-05-20 23:02:22:663 - [debug] [35m[Logcat][39m Starting logcat capture
+2020-05-20 23:02:22:681 - [debug] [35m[AndroidDriver][39m Enabling Unicode keyboard support
+2020-05-20 23:02:22:682 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell settings get secure default_input_method'
+2020-05-20 23:02:23:656 - [debug] [35m[AndroidDriver][39m Unsetting previous IME com.netease.nemu_vinput.nemu/com.android.inputmethodcommon.SoftKeyboard
+2020-05-20 23:02:23:656 - [debug] [35m[AndroidDriver][39m Setting IME to 'io.appium.settings/.UnicodeIME'
+2020-05-20 23:02:23:657 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ime enable io.appium.settings/.UnicodeIME'
+2020-05-20 23:02:24:533 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ime set io.appium.settings/.UnicodeIME'
+2020-05-20 23:02:25:245 - [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+2020-05-20 23:02:25:245 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-20 23:02:25:276 - [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+2020-05-20 23:02:25:277 - [debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+2020-05-20 23:02:25:277 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2020-05-20 23:02:25:305 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer' with args ["manifest","print","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk"]
+2020-05-20 23:02:27:475 - [debug] [35m[ADB][39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.1' >= '3.8.1')
+2020-05-20 23:02:27:476 - [debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-05-20 23:02:27:476 - [debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk
+2020-05-20 23:02:27:478 - [35m[ADB][39m Using 'apksigner' from '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner'
+2020-05-20 23:02:27:478 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk"]'
+2020-05-20 23:02:27:609 - [35m[ADB][39m Got an error during apksigner execution: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' exited with code 1
+2020-05-20 23:02:27:609 - [35m[ADB][39m apksigner stderr: Error: A JNI error has occurred, please check your installation and try again
+2020-05-20 23:02:27:610 - [35m[ADB][39m Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-05-20 23:02:27:610 - [35m[ADB][39m 	at java.security.AccessController.doPrivileged(Native Method)
+2020-05-20 23:02:27:611 - [35m[ADB][39m 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-05-20 23:02:27:611 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-05-20 23:02:27:611 - [35m[ADB][39m 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-05-20 23:02:27:611 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-05-20 23:02:27:611 - [35m[ADB][39m 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-05-20 23:02:27:611 - [35m[ADB][39m 
+2020-05-20 23:02:27:611 - [35m[ADB][39m Cannot use apksigner tool for signature verification. Original error: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' exited with code 1
+2020-05-20 23:02:27:611 - [debug] [35m[ADB][39m Defaulting to verify.jar
+2020-05-20 23:02:27:877 - [debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' is already signed.
+2020-05-20 23:02:27:878 - [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+2020-05-20 23:02:27:878 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-05-20 23:02:27:896 - [debug] [35m[ADB][39m 'io.appium.uiautomator2.server.test' is installed
+2020-05-20 23:02:27:896 - [debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2020-05-20 23:02:27:896 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-05-20 23:02:28:023 - [35m[ADB][39m Got an error during apksigner execution: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-05-20 23:02:28:023 - [35m[ADB][39m apksigner stderr: Error: A JNI error has occurred, please check your installation and try again
+2020-05-20 23:02:28:023 - [35m[ADB][39m Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.security.AccessController.doPrivileged(Native Method)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-05-20 23:02:28:024 - [35m[ADB][39m 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-05-20 23:02:28:025 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-05-20 23:02:28:025 - [35m[ADB][39m 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-05-20 23:02:28:025 - [35m[ADB][39m 
+2020-05-20 23:02:28:025 - [35m[ADB][39m Cannot use apksigner tool for signature verification. Original error: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-05-20 23:02:28:025 - [debug] [35m[ADB][39m Defaulting to verify.jar
+2020-05-20 23:02:28:261 - [debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-05-20 23:02:28:261 - [35m[UiAutomator2][39m Server packages are not going to be (re)installed
+2020-05-20 23:02:28:262 - [debug] [35m[UiAutomator2][39m Waiting up to 30000ms for services to be available
+2020-05-20 23:02:28:263 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2020-05-20 23:02:28:523 - [debug] [35m[UiAutomator2][39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-05-20 23:02:28:523 - [debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 6727
+2020-05-20 23:02:28:524 - [debug] [35m[ADB][39m Forwarding system: 6727 to device: 6790
+2020-05-20 23:02:28:524 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:6727 tcp\:6790'
+2020-05-20 23:02:28:534 - [debug] [35m[UiAutomator2][39m No app capability. Assuming it is already on the device
+2020-05-20 23:02:28:535 - [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
+2020-05-20 23:02:28:550 - [debug] [35m[UiAutomator2][39m No obsolete sessions have been detected (Error: socket hang up)
+2020-05-20 23:02:28:550 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2020-05-20 23:02:28:983 - [35m[UiAutomator2][39m Starting UIAutomator2 server 3.8.1
+2020-05-20 23:02:28:983 - [35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2020-05-20 23:02:28:984 - [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+2020-05-20 23:02:28:984 - [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-05-20 23:02:29:371 - [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-05-20 23:02:29:994 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-05-20 23:02:29:996 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6727/wd/hub/status] with no body
+2020-05-20 23:02:30:004 - [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+2020-05-20 23:02:31:008 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-05-20 23:02:31:009 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6727/wd/hub/status] with no body
+2020-05-20 23:02:31:047 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","status":0,"value":"Status Invoked"}
+2020-05-20 23:02:31:047 - [debug] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP'
+2020-05-20 23:02:31:047 - [debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 2065ms
+2020-05-20 23:02:31:048 - [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+2020-05-20 23:02:31:048 - [debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://localhost:6727/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true},"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true,"deviceUDID":"emulator-5554"}}
+2020-05-20 23:02:31:058 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":0,"value":"Created Session"}
+2020-05-20 23:02:31:058 - [debug] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP' per session creation request
+2020-05-20 23:02:31:069 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/appium/device/info] with no body
+2020-05-20 23:02:31:084 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":0,"value":{"androidId":"9f76973988ef8c02","manufacturer":"HUAWEI","model":"Mate 10 Pro","brand":"HUAWEI","apiVersion":"23","platformVersion":"6.0.1","carrierName":"","realDisplaySize":"640x1024","displayDensity":256,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"Nr9K20lV\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-55,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2020-05-20 23:02:31:085 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2020-05-20 23:02:31:105 - [35m[AndroidDriver][39m Screen already unlocked, doing nothing
+2020-05-20 23:02:31:106 - [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.xueqiu.android/.view.WelcomeActivityAlias'. Starting it ourselves
+2020-05-20 23:02:31:106 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.xueqiu.android/.view.WelcomeActivityAlias -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-05-20 23:02:33:462 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/appium/device/pixel_ratio] with body: {}
+2020-05-20 23:02:33:476 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":0,"value":1.6}
+2020-05-20 23:02:33:479 - [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-05-20 23:02:33:479 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/appium/device/system_bars] with body: {}
+2020-05-20 23:02:33:488 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":0,"value":{"statusBar":38}}
+2020-05-20 23:02:33:488 - [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
+2020-05-20 23:02:33:489 - [debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/window/current/size] with body: {}
+2020-05-20 23:02:33:496 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":0,"value":{"height":1024,"width":640}}
+2020-05-20 23:02:33:497 - [35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session eeddb93a-b289-4cb4-a204-98f3da3f49f3 added to master session list
+2020-05-20 23:02:33:497 - [debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1589986953497 (23:02:33 GMT+0800 (China Standard Time))
+2020-05-20 23:02:33:498 - [debug] [35m[W3C (eeddb93a)][39m Cached the protocol value 'W3C' for the new session eeddb93a-b289-4cb4-a204-98f3da3f49f3
+2020-05-20 23:02:33:498 - [debug] [35m[W3C (eeddb93a)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true},"platformName":"Android","udid":"emulator-5554","deviceName":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"6.0.1","appActivity":".view.WelcomeActivityAlias","unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true,"deviceUDID":"emulator-5554","deviceApiLevel":23,"deviceScreenSize":"640x1024","deviceScreenDensity":256,"deviceModel":"Mate 10 Pro","deviceManufacturer":"HUAWEI","pixelRatio":1.6,"sta...
+2020-05-20 23:02:33:502 - [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15142 ms - 1158[39m
+2020-05-20 23:02:33:502 - [35m[HTTP][39m [90m[39m
+2020-05-20 23:02:33:505 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3/timeouts[39m
+2020-05-20 23:02:33:505 - [35m[HTTP][39m [90m{"implicit":5000}[39m
+2020-05-20 23:02:33:507 - [debug] [35m[W3C (eeddb93a)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"eeddb93a-b289-4cb4-a204-98f3da3f49f3"]
+2020-05-20 23:02:33:534 - [debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+2020-05-20 23:02:33:534 - [debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+2020-05-20 23:02:33:535 - [debug] [35m[W3C (eeddb93a)][39m Responding to client with driver.timeouts() result: null
+2020-05-20 23:02:33:536 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3/timeouts [39m[32m200[39m [90m31 ms - 14[39m
+2020-05-20 23:02:33:536 - [35m[HTTP][39m [90m[39m
+2020-05-20 23:02:35:546 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3/element[39m
+2020-05-20 23:02:35:547 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='我的']"}[39m
+2020-05-20 23:02:35:550 - [debug] [35m[W3C (eeddb93a)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='我的']","eeddb93a-b289-4cb4-a204-98f3da3f49f3"]
+2020-05-20 23:02:35:551 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-05-20 23:02:35:551 - [debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+2020-05-20 23:02:35:552 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:35:553 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:36:110 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:36:111 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:36:111 - [debug] [35m[BaseDriver][39m Waited for 559 ms so far
+2020-05-20 23:02:36:617 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:36:617 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:36:746 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:36:747 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:36:747 - [debug] [35m[BaseDriver][39m Waited for 1195 ms so far
+2020-05-20 23:02:37:252 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:37:252 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:37:303 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:37:304 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:37:304 - [debug] [35m[BaseDriver][39m Waited for 1752 ms so far
+2020-05-20 23:02:37:806 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:37:806 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:38:252 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:38:253 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:38:253 - [debug] [35m[BaseDriver][39m Waited for 2701 ms so far
+2020-05-20 23:02:38:754 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:38:755 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:39:152 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:39:155 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:39:155 - [debug] [35m[BaseDriver][39m Waited for 3603 ms so far
+2020-05-20 23:02:39:660 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:39:660 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:39:948 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:39:948 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:39:948 - [debug] [35m[BaseDriver][39m Waited for 4396 ms so far
+2020-05-20 23:02:40:453 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-05-20 23:02:40:453 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3/element] with body: {"strategy":"xpath","selector":"//*[@text='我的']","context":"","multiple":false}
+2020-05-20 23:02:40:751 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-05-20 23:02:40:751 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-05-20 23:02:40:754 - [debug] [35m[W3C (eeddb93a)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-05-20 23:02:40:754 - [debug] [35m[W3C (eeddb93a)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-05-20 23:02:40:755 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3/element [39m[33m404[39m [90m5209 ms - 417[39m
+2020-05-20 23:02:40:755 - [35m[HTTP][39m [90m[39m
+2020-05-20 23:02:40:937 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3/appium/app/close[39m
+2020-05-20 23:02:40:937 - [35m[HTTP][39m [90m{}[39m
+2020-05-20 23:02:40:943 - [debug] [35m[W3C (eeddb93a)][39m Calling AppiumDriver.closeApp() with args: ["eeddb93a-b289-4cb4-a204-98f3da3f49f3"]
+2020-05-20 23:02:40:944 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.xueqiu.android'
+2020-05-20 23:02:41:608 - [debug] [35m[W3C (eeddb93a)][39m Responding to client with driver.closeApp() result: null
+2020-05-20 23:02:41:609 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3/appium/app/close [39m[32m200[39m [90m672 ms - 14[39m
+2020-05-20 23:02:41:610 - [35m[HTTP][39m [90m[39m
+2020-05-20 23:02:41:620 - [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3[39m
+2020-05-20 23:02:41:620 - [35m[HTTP][39m [90m{}[39m
+2020-05-20 23:02:41:620 - [debug] [35m[W3C (eeddb93a)][39m Calling AppiumDriver.deleteSession() with args: ["eeddb93a-b289-4cb4-a204-98f3da3f49f3"]
+2020-05-20 23:02:41:621 - [debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1589986961620 (23:02:41 GMT+0800 (China Standard Time))
+2020-05-20 23:02:41:621 - [35m[Appium][39m Removing session eeddb93a-b289-4cb4-a204-98f3da3f49f3 from our master session list
+2020-05-20 23:02:41:622 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+2020-05-20 23:02:41:622 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+2020-05-20 23:02:41:622 - [debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+2020-05-20 23:02:41:623 - [debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:6727/wd/hub/session/5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3] with no body
+2020-05-20 23:02:41:637 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"5abdc7a3-fd4e-400d-b0bd-7ef819d2fec3","status":0,"value":"Session deleted"}
+2020-05-20 23:02:41:637 - [debug] [35m[UiAutomator2][39m Resetting IME to 'com.netease.nemu_vinput.nemu/com.android.inputmethodcommon.SoftKeyboard'
+2020-05-20 23:02:41:637 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ime set com.netease.nemu_vinput.nemu/com.android.inputmethodcommon.SoftKeyboard'
+2020-05-20 23:02:42:062 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.xueqiu.android'
+2020-05-20 23:02:42:429 - [debug] [35m[Instrumentation][39m .
+2020-05-20 23:02:42:477 - [debug] [35m[Logcat][39m Stopping logcat capture
+2020-05-20 23:02:42:480 - [debug] [35m[ADB][39m Removing forwarded port socket connection: 6727 
+2020-05-20 23:02:42:481 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:6727'
+2020-05-20 23:02:42:500 - [debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1589986962500 (23:02:42 GMT+0800 (China Standard Time))
+2020-05-20 23:02:42:500 - [debug] [35m[W3C (eeddb93a)][39m Received response: null
+2020-05-20 23:02:42:501 - [debug] [35m[W3C (eeddb93a)][39m But deleting session, so not returning
+2020-05-20 23:02:42:501 - [debug] [35m[W3C (eeddb93a)][39m Responding to client with driver.deleteSession() result: null
+2020-05-20 23:02:42:502 - [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/eeddb93a-b289-4cb4-a204-98f3da3f49f3 [39m[32m200[39m [90m882 ms - 14[39m
+2020-05-20 23:02:42:502 - [35m[HTTP][39m [90m[39m
+2020-05-20 23:02:43:299 - [35m[Appium][39m Received SIGTERM - shutting down
+2020-05-20 23:02:50:691 - [debug] [35m[Instrumentation][39m Time: 13.064
+2020-05-20 23:02:50:692 - [debug] [35m[Instrumentation][39m 
+2020-05-20 23:02:50:692 - [debug] [35m[Instrumentation][39m OK (1 test)
+2020-05-20 23:02:50:921 - [debug] [35m[Instrumentation][39m The process has exited with code 0

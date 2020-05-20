@@ -1,5 +1,0 @@
-2020-05-19 23:42:38,099 DEFAULT INFO appium -p 4725 -bp 6725 -U 5483e9c3 --log-timestamp --local-timezone
-2020-05-19 23:42:38,111 DEFAULT INFO 读取配置文件成功
-2020-05-19 23:42:38,113 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
-2020-05-19 23:42:38,114 DEFAULT INFO {'platformName': 'Android', 'deviceName': '5483e9c3', 'appPackage': 'com.xueqiu.android', 'platformVersion': '7.1.2', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6725, 'noReset': True, 'autoGrantPermissions': True}
-2020-05-19 23:42:38,116 DEFAULT INFO http://localhost:4725/wd/hub

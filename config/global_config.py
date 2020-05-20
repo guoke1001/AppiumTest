@@ -19,6 +19,9 @@ LOG_FOLDER = os.path.join(project_path, 'logs')
 LOG_FILE_NAME = os.path.join(LOG_FOLDER, datetime.now().strftime('%Y-%m-%d') + '.log')
 # ---------------- 截图相关 --------------------
 SCREENSHOT_DIR = os.path.join(project_path, "screenshot")
+# ---------------- 压缩文件相关 --------------------
+ZIP_DIR=os.path.join(project_path,"report","zip")
+ZIP_File_DIR=os.path.join(project_path,"report")
 
 # ---------------- 测试报告 --------------------
 REPORT_PATH = os.path.join(project_path, "report")

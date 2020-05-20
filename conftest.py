@@ -26,7 +26,7 @@ def common_driver(cmdopt):
     driver=base_driver.get_driver()
     sleep(2)
     yield driver
-    # driver.close_app()
-    # driver.quit()
+    driver.close_app()
+    driver.quit()
 
 

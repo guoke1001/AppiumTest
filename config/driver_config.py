@@ -4,6 +4,7 @@ __author__ = 'tangyao'
 import multiprocessing
 import os
 import subprocess
+from datetime import datetime
 from time import sleep
 
 import yaml
@@ -21,8 +22,8 @@ class DriverConfig:
                                                   self.device_info["deviceName"])
         log.info(cmd)
         # os.system(cmd)
-        subprocess.Popen(cmd,shell=True,stdout=open("./logs/appium.log",'a'),stderr=subprocess.STDOUT)
-        sleep(5)
+        subprocess.Popen(cmd,shell=True,stdout=open("./logs/{0}_{1}_appium.log".format(datetime.now().strftime("%Y-%m-%d_%H:%M:%S"),device_info["deviceName"]),'a'),stderr=subprocess.STDOUT)
+        sleep(5) #防止appium服务没有完全启动就执行测试报错
 
     def get_driver(self):
         # 配置yaml文件路径

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "192.168.0.106",
+    "children" : [ {
+      "name" : "22810-MainThread",
+      "children" : [ {
+        "name" : "登录用例",
+        "uid" : "daffba7658f2d72f",
+        "parentUid" : "d280ccc0cf9904f966f0085d2f06b681",
+        "status" : "broken",
+        "time" : {
+          "start" : 1589987694006,
+          "stop" : 1589987699789,
+          "duration" : 5783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d280ccc0cf9904f966f0085d2f06b681"
+    } ],
+    "uid" : "55c9cdeea1828de8ed59d7a4678ba4e7"
+  } ]
+}

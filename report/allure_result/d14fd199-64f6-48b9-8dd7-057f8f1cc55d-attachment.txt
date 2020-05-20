@@ -1,5 +1,0 @@
-2020-05-19 23:29:56,740 DEFAULT INFO appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
-2020-05-19 23:29:56,750 DEFAULT INFO 读取配置文件成功
-2020-05-19 23:29:56,751 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
-2020-05-19 23:29:56,752 DEFAULT INFO {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
-2020-05-19 23:29:56,755 DEFAULT INFO http://localhost:4727/wd/hub
