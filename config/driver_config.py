@@ -44,7 +44,7 @@ class DriverConfig:
             caps['resetKeyboard'] = data["resetKeyboard"] # 是否在测试结束后将键盘重轩为系统默认的输入法。
             caps['newCommandTimeout'] = data["newCommandTimeout"]# Appium服务器待appium客户端发送新消息的时间。默认为60秒
             caps['systemPort'] = self.system_port  # 重要，不定义会出现socket hang up错误！
-            # caps["app"] = "./app/xueqiu.apk"
+            # caps["app"] = data["app"]
             caps["noReset"] = data["noReset"] #不重新安装app
             # if automationName!='appium':
             #     caps['automationName']=automationName

@@ -1,8 +1,0 @@
-INFO     DEFAULT:driver_config.py:23 appium -p 4727 -bp 6727 -U emulator-5554 --log-timestamp --local-timezone
-INFO     DEFAULT:driver_config.py:34 读取配置文件成功
-INFO     DEFAULT:driver_config.py:35 {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
-INFO     DEFAULT:driver_config.py:53 {'platformName': 'Android', 'deviceName': 'emulator-5554', 'appPackage': 'com.xueqiu.android', 'platformVersion': '9', 'appActivity': '.view.WelcomeActivityAlias', 'unicodeKeyboard': True, 'resetKeyboard': True, 'newCommandTimeout': 120, 'systemPort': 6727, 'noReset': True, 'autoGrantPermissions': True}
-INFO     DEFAULT:driver_config.py:54 http://localhost:4727/wd/hub
-INFO     DEFAULT:driver_config.py:58 <appium.webdriver.webdriver.WebDriver (session="f6537a1f-3a16-48d2-8d8a-626d85e79555")>
-INFO     DEFAULT:driver_config.py:59 启动App成功
-INFO     DEFAULT:test_login.py:24 test

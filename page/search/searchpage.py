@@ -2,17 +2,20 @@
 __author__ = 'tangyao'
 
 from appium.webdriver.webdriver import WebDriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
+from common.base_page import BasePage
 
-class SearchPage():
 
+class SearchPage(BasePage):
 
+    _search_key=(By.XPATH,"//*[contains(@text,'BABA')]")
     def search(self,keywords):
         self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text").send_keys(keywords)
 
-        # WebDriverWait(self.driver, 10, 2).until(expected_conditions.visibility_of_element_located(('BABA')))
+        WebDriverWait(self.driver, 10).until(expected_conditions.visibility_of_element_located(self._search_key))
 
         return self
     def select(self,index):

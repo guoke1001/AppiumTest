@@ -4,6 +4,8 @@ __author__ = 'tangyao'
 import multiprocessing
 import os
 import shutil
+from datetime import datetime
+
 import pytest
 from multiprocessing import Pool
 from config import global_config
@@ -13,7 +15,7 @@ from util.global_manager import GlobalManager
 log=logger()
 
 device_infos = [
-        {"platformVersion": "7.1.2", "serverPort": 4725, "deviceName": "5483e9c3"},
+        # {"platformVersion": "7.1.2", "serverPort": 4726, "deviceName": "5483e9c3"},
         {"platformVersion": "9", "serverPort": 4727, "deviceName": "emulator-5554"}
     ]
 def run_pytest(device_info):
@@ -43,7 +45,7 @@ def generate_report():
         result_history_dir = os.path.join(REPORT_RESULT_FILES, "history")
         # 如果不存在则先创建文件夹
         if not os.path.exists(result_history_dir):
-            print(os.mkdir(result_history_dir))
+            os.mkdir(result_history_dir)
         for file in files:
             shutil.copy(os.path.join(REPORT_RESULT_FILES, file), result_history_dir)
 

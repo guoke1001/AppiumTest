@@ -1,9 +1,9 @@
 "platformName": "Android"
-#"app": "./xueqiu.apk"
+#"app": "xueqiu.apk"
 "appPackage": "com.xueqiu.android"
 "appActivity": ".view.WelcomeActivityAlias"
-"unicodeKeyboard": true
-"resetKeyboard": true
+#"unicodeKeyboard": false
+#"resetKeyboard": false
 "autoGrantPermissions": true
 "noReset": true
 "newCommandTimeout": 120

@@ -8,30 +8,33 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from common.base_page import BasePage
+from config.log_config import logger
 from page.search.searchpage import SearchPage
 from page.trade.tradepage import TradePage
 from page.use_profile.use_profile_page import Use_Profile_Page
 from page.xueqiu.Xue_Qiu_Page import Xue_Qiu_Page
 
 
+lo=logger()
 class XueQiuPage(BasePage):
-    drivers=None
+    # drivers=None
     _appPackage="com.xueqiu.android"
     _appActivity=".view.WelcomeActivityAlias"
-    # # _skill_loading=(By.ID,"com.xueqiu.android:id/tv_skip_fullscreen")
     # _skill_loading=(By.ID,"com.xueqiu.android:id/tv_skip")
+    _skill_loading=(By.ID,"com.xueqiu.android:id/tv_skip_fullscreen")
+    # _skill_loading=(By.XPATH,"//*[contains(@text,'跳过')]")
 
 
-
+    #
     # def __init__(self,driver:WebDriver):
     #     super().__init__(driver)
-    #     if XueQiuPage.drivers==None:
-    #         print('first')
-    #         XueQiuPage.drivers=self.driver
-    #     else:
-    #         print('11111')
-    #         self.driver.start_activity(self._appPackage, self._appActivity)
-    #     WebDriverWait(self.driver,10,2).until(expected_conditions.visibility_of_element_located(self._skill_loading))
+    #     # if XueQiuPage.drivers==None:
+    #     #     print('first')
+    #     #     XueQiuPage.drivers=self.driver
+    #     # else:
+    #     #     print('11111')
+    #     #     self.driver.start_activity(self._appPackage, self._appActivity)
+    #     # print(WebDriverWait(self.driver, 10, 2).until(expected_conditions.visibility_of_element_located(self._skill_loading)))
     #     self.find(self._skill_loading).click()
 
 
@@ -56,14 +59,23 @@ class XueQiuPage(BasePage):
     #
     #
 
+    def loading_page(self):
+        # WebDriverWait(self.driver, 10, 0.1).until(expected_conditions.visibility_of_element_located((By.ID,"com.xueqiu.android:id/tv_skip")))
+
+        self.find(self._skill_loading).click()
+        return self
     def goto_search(self):
 
         self.driver.find_element_by_id("com.xueqiu.android:id/home_search").click()
         return SearchPage(self.driver)
     def goto_trade(self):
-        self.driver.find_element_by_xpath("//*[@text='交易']").click()
+        # WebDriverWait(self.driver,10).until(expected_conditions.visibility_of_element_located((By.XPATH,"//*[@text='交易']")))
+
+        self.find((By.XPATH,"//*[@text='交易']")).click()
+        lo.info(self.driver.contexts)
         return TradePage(self.driver)
     def goto_profile(self):
+        WebDriverWait(self.driver,10).until(expected_conditions.visibility_of_element_located((By.XPATH,"//*[@text='我的']")))
         self.driver.find_element_by_xpath("//*[@text='我的']").click()
         return Use_Profile_Page(self.driver)
     def goto_xueqiu(self):

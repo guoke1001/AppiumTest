@@ -5,7 +5,7 @@ import os
 import shutil
 
 from config.log_config import logger
-from config.global_config import REPORT_RESULT_PATH, SCREENSHOT_DIR, REPORT_PATH
+from config.global_config import SCREENSHOT_DIR, REPORT_PATH, LOG_FOLDER
 
 
 class GlobalManager:
@@ -23,4 +23,8 @@ class GlobalManager:
         self.log.info('删除旧的截图')
         if os.path.exists(SCREENSHOT_DIR):
             shutil.rmtree(SCREENSHOT_DIR)
+    #删除日志目录
+    def delete_log(self):
+        if os.path.exists(LOG_FOLDER):
+            shutil.rmtree(LOG_FOLDER)
 
