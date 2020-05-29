@@ -9,6 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from common.base_page import BasePage
 from config.log_config import logger
+from page.HANGQING.hang_qing_page import Hang_Qing_Page
 from page.search.searchpage import SearchPage
 from page.trade.tradepage import TradePage
 from page.use_profile.use_profile_page import Use_Profile_Page
@@ -23,6 +24,7 @@ class XueQiuPage(BasePage):
     # _skill_loading=(By.ID,"com.xueqiu.android:id/tv_skip")
     _skill_loading=(By.ID,"com.xueqiu.android:id/tv_skip_fullscreen")
     # _skill_loading=(By.XPATH,"//*[contains(@text,'跳过')]")
+    _hq=(By.XPATH,"//*[contains(@text,'行情')]")
 
 
     #
@@ -81,3 +83,6 @@ class XueQiuPage(BasePage):
     def goto_xueqiu(self):
         self.driver.find_element_by_xpath("//*[@text='雪球']")
         return Xue_Qiu_Page(self.driver)
+    def goto_hq(self):
+        self.find(self._hq).click()
+        return Hang_Qing_Page(self.driver)

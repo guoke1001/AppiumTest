@@ -15,8 +15,8 @@ from util.global_manager import GlobalManager
 log=logger()
 
 device_infos = [
-        # {"platformVersion": "7.1.2", "serverPort": 4726, "deviceName": "5483e9c3"},
-        {"platformVersion": "9", "serverPort": 4727, "deviceName": "emulator-5554"}
+        {"platformVersion": "7.1.2", "serverPort": 4726, "deviceName": "5483e9c3"},
+        # {"platformVersion": "9", "serverPort": 4727, "deviceName": "emulator-5554"}
     ]
 def run_pytest(device_info):
     #多设备每个设备生成单独的result
