@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_pre",
+        "uid" : "5ef069659d0b76e",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592260251262,
+          "stop" : 1592260312249,
+          "duration" : 60987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_open_hs",
+        "uid" : "adb49cb88b996e4f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592260356464,
+          "stop" : 1592260373832,
+          "duration" : 17368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "children" : [ {
+        "name" : "test_big",
+        "uid" : "e592a5055330e73d",
+        "parentUid" : "7a823ebd65a5f17ad39e628108c6e522",
+        "status" : "broken",
+        "time" : {
+          "start" : 1592260323983,
+          "stop" : 1592260344874,
+          "duration" : 20891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a823ebd65a5f17ad39e628108c6e522"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

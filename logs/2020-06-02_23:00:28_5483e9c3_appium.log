@@ -1,0 +1,985 @@
+2020-06-02 23:00:31:089 - [35m[Appium][39m Welcome to Appium v1.14.1
+2020-06-02 23:00:31:094 - [35m[Appium][39m Non-default server args:
+2020-06-02 23:00:31:095 - [35m[Appium][39m   port: 4726
+2020-06-02 23:00:31:096 - [35m[Appium][39m   bootstrapPort: 6726
+2020-06-02 23:00:31:096 - [35m[Appium][39m   logTimestamp: true
+2020-06-02 23:00:31:097 - [35m[Appium][39m   localTimezone: true
+2020-06-02 23:00:31:097 - [35m[Appium][39m   udid: 5483e9c3
+2020-06-02 23:00:31:098 - [35m[Appium][39m Deprecated server args:
+2020-06-02 23:00:31:098 - [35m[Appium][39m   [31m-U,--udid[39m => --default-capabilities '{"udid":"5483e9c3"}'
+2020-06-02 23:00:31:099 - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2020-06-02 23:00:31:099 - [35m[Appium][39m   udid: 5483e9c3
+2020-06-02 23:00:31:132 - [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4726
+2020-06-02 23:00:33:340 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+2020-06-02 23:00:33:340 - [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"5483e9c3","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"7.1.2","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6726,"appium:noReset":true,"appium:autoGrantPermissions":true}]},"desiredCapabilities":{"platformName":"Android","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true}}[39m
+2020-06-02 23:00:33:343 - [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"5483e9c3","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"7.1.2","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6726,"appium:noReset":true,"appium:autoGrantPermissions":true}]}]
+2020-06-02 23:00:33:343 - [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1591110033343 (23:00:33 GMT+0800 (China Standard Time))
+2020-06-02 23:00:33:346 - [35m[BaseDriver][39m The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-06-02 23:00:33:349 - [35m[Appium][39m 
+2020-06-02 23:00:33:350 - [35m[Appium][39m ======================================================================
+2020-06-02 23:00:33:350 - [35m[Appium][39m   DEPRECATION WARNING:
+2020-06-02 23:00:33:350 - [35m[Appium][39m 
+2020-06-02 23:00:33:350 - [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+2020-06-02 23:00:33:350 - [35m[Appium][39m   capabilities for this Android session
+2020-06-02 23:00:33:350 - [35m[Appium][39m 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   UiAutomator2 Driver
+2020-06-02 23:00:33:351 - [35m[Appium][39m 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   platforms
+2020-06-02 23:00:33:351 - [35m[Appium][39m 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+2020-06-02 23:00:33:351 - [35m[Appium][39m   'automationName=UiAutomator1'
+2020-06-02 23:00:33:352 - [35m[Appium][39m 
+2020-06-02 23:00:33:352 - [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+2020-06-02 23:00:33:352 - [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+2020-06-02 23:00:33:352 - [35m[Appium][39m 
+2020-06-02 23:00:33:352 - [35m[Appium][39m   For more information about drivers, please visit 
+2020-06-02 23:00:33:352 - [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-06-02 23:00:33:352 - [35m[Appium][39m   'Drivers' menu
+2020-06-02 23:00:33:352 - [35m[Appium][39m 
+2020-06-02 23:00:33:352 - [35m[Appium][39m ======================================================================
+2020-06-02 23:00:33:353 - [35m[Appium][39m 
+2020-06-02 23:00:33:608 - [35m[Appium][39m Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.34.0) session
+2020-06-02 23:00:33:609 - [35m[Appium][39m Capabilities:
+2020-06-02 23:00:33:609 - [35m[Appium][39m   platformName: Android
+2020-06-02 23:00:33:609 - [35m[Appium][39m   udid: 5483e9c3
+2020-06-02 23:00:33:609 - [35m[Appium][39m   deviceName: 5483e9c3
+2020-06-02 23:00:33:609 - [35m[Appium][39m   appPackage: com.xueqiu.android
+2020-06-02 23:00:33:609 - [35m[Appium][39m   platformVersion: 7.1.2
+2020-06-02 23:00:33:609 - [35m[Appium][39m   appActivity: .view.WelcomeActivityAlias
+2020-06-02 23:00:33:609 - [35m[Appium][39m   newCommandTimeout: 120
+2020-06-02 23:00:33:610 - [35m[Appium][39m   systemPort: 6726
+2020-06-02 23:00:33:610 - [35m[Appium][39m   noReset: true
+2020-06-02 23:00:33:610 - [35m[Appium][39m   autoGrantPermissions: true
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m   "alwaysMatch": {
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m     "platformName": "Android",
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m     "appium:udid": "5483e9c3",
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m     "appium:deviceName": "5483e9c3",
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m     "appium:appPackage": "com.xueqiu.android",
+2020-06-02 23:00:33:612 - [debug] [35m[BaseDriver][39m     "appium:platformVersion": "7.1.2",
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m     "appium:appActivity": ".view.WelcomeActivityAlias",
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 120,
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m     "appium:systemPort": 6726,
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m     "appium:noReset": true,
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m   },
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m   "firstMatch": [
+2020-06-02 23:00:33:613 - [debug] [35m[BaseDriver][39m     {}
+2020-06-02 23:00:33:614 - [debug] [35m[BaseDriver][39m   ]
+2020-06-02 23:00:33:614 - [debug] [35m[BaseDriver][39m }
+2020-06-02 23:00:33:621 - [35m[BaseDriver][39m Session created with session id: 62359954-bcfc-4143-8510-d943680e9453
+2020-06-02 23:00:33:649 - [35m[ADB][39m Found 42 'build-tools' folders under '/Users/tangyao/Android/sdk' (newest first):
+2020-06-02 23:00:33:649 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/30.0.0-rc2
+2020-06-02 23:00:33:649 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/29.0.2
+2020-06-02 23:00:33:649 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/29.0.0-rc2
+2020-06-02 23:00:33:649 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.3
+2020-06-02 23:00:33:649 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.2
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.1
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.0
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.0-rc2
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/28.0.0-rc1
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/27.0.3
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/26.0.1
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/26.0.0
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.3
+2020-06-02 23:00:33:650 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.2
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.1
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/25.0.0
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.3
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.2
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.1
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/24.0.0
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.3
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.2
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.1
+2020-06-02 23:00:33:651 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/23.0.0
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/22.0.1
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/22.0.0
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.1.2
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.1.1
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.1.0
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.0.2
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.0.1
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/21.0.0
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/20.0.0
+2020-06-02 23:00:33:652 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.1.0
+2020-06-02 23:00:33:653 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.3
+2020-06-02 23:00:33:653 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.2
+2020-06-02 23:00:33:653 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.1
+2020-06-02 23:00:33:653 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/19.0.0
+2020-06-02 23:00:33:653 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/18.1.1
+2020-06-02 23:00:33:653 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/18.1.0
+2020-06-02 23:00:33:654 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/18.0.1
+2020-06-02 23:00:33:654 - [35m[ADB][39m     /Users/tangyao/Android/sdk/build-tools/17.0.0
+2020-06-02 23:00:33:656 - [35m[ADB][39m Using 'adb' from '/Users/tangyao/Android/sdk/platform-tools/adb'
+2020-06-02 23:00:33:656 - [35m[AndroidDriver][39m Retrieving device list
+2020-06-02 23:00:33:656 - [debug] [35m[ADB][39m Trying to find a connected android device
+2020-06-02 23:00:33:657 - [debug] [35m[ADB][39m Getting connected devices...
+2020-06-02 23:00:33:683 - [debug] [35m[ADB][39m 1 device(s) connected
+2020-06-02 23:00:33:683 - [35m[AndroidDriver][39m Using device: 5483e9c3
+2020-06-02 23:00:33:685 - [35m[ADB][39m Using 'adb' from '/Users/tangyao/Android/sdk/platform-tools/adb'
+2020-06-02 23:00:33:686 - [debug] [35m[ADB][39m Setting device id to 5483e9c3
+2020-06-02 23:00:33:687 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell getprop ro.build.version.sdk'
+2020-06-02 23:00:33:768 - [debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 29
+2020-06-02 23:00:33:769 - [debug] [35m[ADB][39m Device API level: 29
+2020-06-02 23:00:33:769 - [35m[UiAutomator2][39m Relaxing hidden api policy
+2020-06-02 23:00:33:770 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings put global hidden_api_policy_pre_p_apps 1'
+2020-06-02 23:00:33:876 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings put global hidden_api_policy_p_apps 1'
+2020-06-02 23:00:33:996 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings put global hidden_api_policy 1'
+2020-06-02 23:00:34:104 - [35m[AndroidDriver][39m No app sent in, not parsing package/activity
+2020-06-02 23:00:34:105 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 wait-for-device'
+2020-06-02 23:00:34:115 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell echo ping'
+2020-06-02 23:00:34:169 - [debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+2020-06-02 23:00:34:170 - [debug] [35m[ADB][39m Getting install status for io.appium.settings
+2020-06-02 23:00:34:171 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.settings'
+2020-06-02 23:00:34:273 - [debug] [35m[ADB][39m 'io.appium.settings' is installed
+2020-06-02 23:00:34:274 - [debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+2020-06-02 23:00:34:274 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.settings'
+2020-06-02 23:00:34:370 - [35m[ADB][39m Using 'apkanalyzer' from '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer'
+2020-06-02 23:00:34:371 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer' with args ["manifest","print","/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.14.1@io.appium.settings/apks/settings_apk-debug.apk"]
+2020-06-02 23:00:36:260 - [debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2020-06-02 23:00:36:261 - [debug] [35m[ADB][39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.14.1@io.appium.settings/apks/settings_apk-debug.apk'
+2020-06-02 23:00:36:262 - [debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+2020-06-02 23:00:36:262 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell 'pgrep --help; echo $?''
+2020-06-02 23:00:36:366 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell pgrep -f io\.appium\.settings'
+2020-06-02 23:00:36:491 - [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+2020-06-02 23:00:36:491 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell appops set io.appium.settings android\:mock_location allow'
+2020-06-02 23:00:36:627 - [debug] [35m[Logcat][39m Starting logcat capture
+2020-06-02 23:00:36:718 - [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+2020-06-02 23:00:36:723 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.uiautomator2.server'
+2020-06-02 23:00:36:836 - [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+2020-06-02 23:00:36:837 - [debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+2020-06-02 23:00:36:837 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.uiautomator2.server'
+2020-06-02 23:00:36:929 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer' with args ["manifest","print","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk"]
+2020-06-02 23:00:39:360 - [debug] [35m[ADB][39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.1' >= '3.8.1')
+2020-06-02 23:00:39:362 - [debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-06-02 23:00:39:363 - [debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk
+2020-06-02 23:00:39:364 - [35m[ADB][39m Using 'apksigner' from '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner'
+2020-06-02 23:00:39:365 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk"]'
+2020-06-02 23:00:39:518 - [35m[ADB][39m Got an error during apksigner execution: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' exited with code 1
+2020-06-02 23:00:39:519 - [35m[ADB][39m apksigner stderr: Error: A JNI error has occurred, please check your installation and try again
+2020-06-02 23:00:39:519 - [35m[ADB][39m Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-06-02 23:00:39:519 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-06-02 23:00:39:519 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-06-02 23:00:39:519 - [35m[ADB][39m 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-06-02 23:00:39:519 - [35m[ADB][39m 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-06-02 23:00:39:519 - [35m[ADB][39m 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at java.security.AccessController.doPrivileged(Native Method)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-06-02 23:00:39:520 - [35m[ADB][39m 
+2020-06-02 23:00:39:521 - [35m[ADB][39m Cannot use apksigner tool for signature verification. Original error: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' exited with code 1
+2020-06-02 23:00:39:521 - [debug] [35m[ADB][39m Defaulting to verify.jar
+2020-06-02 23:00:39:816 - [debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' is already signed.
+2020-06-02 23:00:39:816 - [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+2020-06-02 23:00:39:816 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-06-02 23:00:39:942 - [debug] [35m[ADB][39m 'io.appium.uiautomator2.server.test' is installed
+2020-06-02 23:00:39:943 - [debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2020-06-02 23:00:39:943 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-06-02 23:00:40:140 - [35m[ADB][39m Got an error during apksigner execution: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-06-02 23:00:40:141 - [35m[ADB][39m apksigner stderr: Error: A JNI error has occurred, please check your installation and try again
+2020-06-02 23:00:40:141 - [35m[ADB][39m Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-06-02 23:00:40:141 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-06-02 23:00:40:141 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.security.AccessController.doPrivileged(Native Method)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-06-02 23:00:40:142 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-06-02 23:00:40:143 - [35m[ADB][39m 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-06-02 23:00:40:143 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-06-02 23:00:40:143 - [35m[ADB][39m 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-06-02 23:00:40:143 - [35m[ADB][39m 
+2020-06-02 23:00:40:143 - [35m[ADB][39m Cannot use apksigner tool for signature verification. Original error: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-06-02 23:00:40:143 - [debug] [35m[ADB][39m Defaulting to verify.jar
+2020-06-02 23:00:40:411 - [debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-06-02 23:00:40:412 - [35m[UiAutomator2][39m Server packages are not going to be (re)installed
+2020-06-02 23:00:40:412 - [debug] [35m[UiAutomator2][39m Waiting up to 30000ms for services to be available
+2020-06-02 23:00:40:413 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell pm list instrumentation'
+2020-06-02 23:00:40:534 - [debug] [35m[UiAutomator2][39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-06-02 23:00:40:534 - [debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 6726
+2020-06-02 23:00:40:534 - [debug] [35m[ADB][39m Forwarding system: 6726 to device: 6790
+2020-06-02 23:00:40:535 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 forward tcp\:6726 tcp\:6790'
+2020-06-02 23:00:40:544 - [debug] [35m[UiAutomator2][39m No app capability. Assuming it is already on the device
+2020-06-02 23:00:40:544 - [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
+2020-06-02 23:00:40:600 - [debug] [35m[UiAutomator2][39m No obsolete sessions have been detected (Error: socket hang up)
+2020-06-02 23:00:40:601 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am force-stop io.appium.uiautomator2.server.test'
+2020-06-02 23:00:40:730 - [35m[UiAutomator2][39m Starting UIAutomator2 server 3.8.1
+2020-06-02 23:00:40:730 - [35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2020-06-02 23:00:40:731 - [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+2020-06-02 23:00:40:731 - [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","5483e9c3","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-06-02 23:00:41:738 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-06-02 23:00:41:740 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6726/wd/hub/status] with no body
+2020-06-02 23:00:41:742 - [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-06-02 23:00:41:758 - [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+2020-06-02 23:00:42:762 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-06-02 23:00:42:765 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6726/wd/hub/status] with no body
+2020-06-02 23:00:42:775 - [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+2020-06-02 23:00:43:778 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-06-02 23:00:43:778 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6726/wd/hub/status] with no body
+2020-06-02 23:00:43:875 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","status":0,"value":"Status Invoked"}
+2020-06-02 23:00:43:875 - [debug] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP'
+2020-06-02 23:00:43:875 - [debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3145ms
+2020-06-02 23:00:43:875 - [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+2020-06-02 23:00:43:876 - [debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://localhost:6726/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true},"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true,"deviceUDID":"5483e9c3"}}
+2020-06-02 23:00:43:929 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":"Created Session"}
+2020-06-02 23:00:43:930 - [debug] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP' per session creation request
+2020-06-02 23:00:43:944 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/appium/device/info] with no body
+2020-06-02 23:00:44:003 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"androidId":"405f120cdfa7799f","manufacturer":"Xiaomi","model":"MI 8","brand":"Xiaomi","apiVersion":"29","platformVersion":"10","carrierName":"","realDisplaySize":"1080x2248","displayDensity":440,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-52,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2020-06-02 23:00:44:004 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys window'
+2020-06-02 23:00:44:144 - [35m[AndroidDriver][39m Screen already unlocked, doing nothing
+2020-06-02 23:00:44:144 - [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.xueqiu.android/.view.WelcomeActivityAlias'. Starting it ourselves
+2020-06-02 23:00:44:145 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am start -W -n com.xueqiu.android/.view.WelcomeActivityAlias -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-06-02 23:00:44:898 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/appium/device/pixel_ratio] with body: {}
+2020-06-02 23:00:44:912 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":2.75}
+2020-06-02 23:00:44:914 - [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-06-02 23:00:44:915 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/appium/device/system_bars] with body: {}
+2020-06-02 23:00:44:926 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"statusBar":89}}
+2020-06-02 23:00:44:927 - [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
+2020-06-02 23:00:44:927 - [debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/window/current/size] with body: {}
+2020-06-02 23:00:44:938 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"height":2029,"width":1080}}
+2020-06-02 23:00:44:939 - [35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 62359954-bcfc-4143-8510-d943680e9453 added to master session list
+2020-06-02 23:00:44:941 - [debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1591110044940 (23:00:44 GMT+0800 (China Standard Time))
+2020-06-02 23:00:44:942 - [debug] [35m[W3C (62359954)][39m Cached the protocol value 'W3C' for the new session 62359954-bcfc-4143-8510-d943680e9453
+2020-06-02 23:00:44:943 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true},"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"10","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true,"deviceUDID":"5483e9c3","deviceApiLevel":29,"deviceScreenSize":"1080x2248","deviceScreenDensity":440,"deviceModel":"MI 8","deviceManufacturer":"Xiaomi","pixelRatio":2.75,"statBarHeight":89,"viewportRect":{"left":0,"top":89,"width":1080,"height":1940}}}
+2020-06-02 23:00:44:960 - [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11616 ms - 1043[39m
+2020-06-02 23:00:44:960 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:46:979 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:46:979 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:46:985 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:47:021 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:47:022 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:47:023 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:47:025 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:47:692 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:47:692 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:47:696 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:47:696 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:47:699 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m719 ms - 417[39m
+2020-06-02 23:00:47:699 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:47:902 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:47:903 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:47:905 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:47:906 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:47:906 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:47:907 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:47:907 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:48:020 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:48:020 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:48:021 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:48:021 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:48:022 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m119 ms - 417[39m
+2020-06-02 23:00:48:022 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:48:226 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:48:226 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:48:226 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:48:227 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:48:227 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:48:227 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:48:228 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:48:326 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:48:326 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:48:327 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:48:327 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:48:327 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m102 ms - 417[39m
+2020-06-02 23:00:48:328 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:48:532 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:48:532 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:48:532 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:48:533 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:48:533 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:48:534 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:48:534 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:48:648 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:48:649 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:48:651 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:48:651 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:48:651 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m120 ms - 417[39m
+2020-06-02 23:00:48:652 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:48:855 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:48:856 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:48:857 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:48:857 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:48:858 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:48:858 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:48:859 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:48:973 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:48:974 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:48:975 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:48:975 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:48:975 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m120 ms - 417[39m
+2020-06-02 23:00:48:976 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:49:178 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:49:179 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:49:179 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:49:180 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:49:180 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:49:181 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:49:182 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:49:290 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:49:290 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:49:291 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:49:291 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:49:292 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m113 ms - 417[39m
+2020-06-02 23:00:49:292 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:49:496 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:49:497 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:49:498 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:49:499 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:49:500 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:49:501 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:49:501 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:49:623 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:49:623 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:49:624 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:49:625 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:49:625 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m129 ms - 417[39m
+2020-06-02 23:00:49:626 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:49:829 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:49:829 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:49:832 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:49:834 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:49:834 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:49:835 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:49:835 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:49:929 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:49:929 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:49:930 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:49:930 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:49:931 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m102 ms - 417[39m
+2020-06-02 23:00:49:932 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:50:134 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:50:135 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:50:136 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:50:137 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:50:137 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:50:138 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:50:138 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:50:415 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:00:50:423 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:00:50:425 - [debug] [35m[W3C (62359954)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:00:50:425 - [debug] [35m[W3C (62359954)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:00:50:426 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[33m404[39m [90m291 ms - 417[39m
+2020-06-02 23:00:50:426 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:50:629 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:50:630 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'行情')]"}[39m
+2020-06-02 23:00:50:631 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'行情')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:50:632 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:50:632 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:50:648 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:50:648 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'行情')]","context":"","multiple":false}
+2020-06-02 23:00:53:188 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"ELEMENT":"c64b09cf-f885-4072-9353-140700043fc9"}}
+2020-06-02 23:00:53:189 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"c64b09cf-f885-4072-9353-140700043fc9","ELEMENT":"c64b09cf-f885-4072-9353-140700043fc9"}
+2020-06-02 23:00:53:190 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[32m200[39m [90m2561 ms - 137[39m
+2020-06-02 23:00:53:190 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:53:194 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/c64b09cf-f885-4072-9353-140700043fc9/displayed[39m
+2020-06-02 23:00:53:194 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:00:53:196 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.elementDisplayed() with args: ["c64b09cf-f885-4072-9353-140700043fc9","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:53:198 - [debug] [35m[WD Proxy][39m Matched '/element/c64b09cf-f885-4072-9353-140700043fc9/attribute/displayed' to command name 'getAttribute'
+2020-06-02 23:00:53:198 - [debug] [35m[WD Proxy][39m Proxying [GET /element/c64b09cf-f885-4072-9353-140700043fc9/attribute/displayed] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/c64b09cf-f885-4072-9353-140700043fc9/attribute/displayed] with body: {}
+2020-06-02 23:00:53:226 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":"true"}
+2020-06-02 23:00:53:227 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.elementDisplayed() result: true
+2020-06-02 23:00:53:228 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/c64b09cf-f885-4072-9353-140700043fc9/displayed [39m[32m200[39m [90m34 ms - 14[39m
+2020-06-02 23:00:53:228 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:53:230 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/c64b09cf-f885-4072-9353-140700043fc9/click[39m
+2020-06-02 23:00:53:230 - [35m[HTTP][39m [90m{"id":"c64b09cf-f885-4072-9353-140700043fc9"}[39m
+2020-06-02 23:00:53:232 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.click() with args: ["c64b09cf-f885-4072-9353-140700043fc9","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:53:233 - [debug] [35m[WD Proxy][39m Matched '/element/c64b09cf-f885-4072-9353-140700043fc9/click' to command name 'click'
+2020-06-02 23:00:53:234 - [debug] [35m[WD Proxy][39m Proxying [POST /element/c64b09cf-f885-4072-9353-140700043fc9/click] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/c64b09cf-f885-4072-9353-140700043fc9/click] with body: {"element":"c64b09cf-f885-4072-9353-140700043fc9"}
+2020-06-02 23:00:53:322 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":true}
+2020-06-02 23:00:53:324 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.click() result: true
+2020-06-02 23:00:53:324 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/c64b09cf-f885-4072-9353-140700043fc9/click [39m[32m200[39m [90m94 ms - 14[39m
+2020-06-02 23:00:53:325 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:53:327 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:53:327 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'贵州茅台')]"}[39m
+2020-06-02 23:00:53:328 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'贵州茅台')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:53:329 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:53:329 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:53:330 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:53:330 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'贵州茅台')]","context":"","multiple":false}
+2020-06-02 23:00:54:363 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"ELEMENT":"2964d3fc-031a-4902-86a6-d5fb5b81681b"}}
+2020-06-02 23:00:54:363 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2964d3fc-031a-4902-86a6-d5fb5b81681b","ELEMENT":"2964d3fc-031a-4902-86a6-d5fb5b81681b"}
+2020-06-02 23:00:54:364 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[32m200[39m [90m1037 ms - 137[39m
+2020-06-02 23:00:54:364 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:54:366 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/displayed[39m
+2020-06-02 23:00:54:367 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:00:54:369 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.elementDisplayed() with args: ["2964d3fc-031a-4902-86a6-d5fb5b81681b","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:54:370 - [debug] [35m[WD Proxy][39m Matched '/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/attribute/displayed' to command name 'getAttribute'
+2020-06-02 23:00:54:370 - [debug] [35m[WD Proxy][39m Proxying [GET /element/2964d3fc-031a-4902-86a6-d5fb5b81681b/attribute/displayed] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/attribute/displayed] with body: {}
+2020-06-02 23:00:54:405 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":"true"}
+2020-06-02 23:00:54:405 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.elementDisplayed() result: true
+2020-06-02 23:00:54:406 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/displayed [39m[32m200[39m [90m40 ms - 14[39m
+2020-06-02 23:00:54:407 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:54:409 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/touch/perform[39m
+2020-06-02 23:00:54:409 - [35m[HTTP][39m [90m{"actions":[{"action":"longPress","options":{"element":"2964d3fc-031a-4902-86a6-d5fb5b81681b","duration":1000}}]}[39m
+2020-06-02 23:00:54:413 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.performTouch() with args: [[{"action":"longPress","options":{"element":"2964d3fc-031a-4902-86a6-d5fb5b81681b","duration":1000}}],"62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:54:415 - [35m[UiAutomator2][39m calling get location: 2964d3fc-031a-4902-86a6-d5fb5b81681b
+2020-06-02 23:00:54:416 - [debug] [35m[WD Proxy][39m Matched '/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/location' to command name 'getLocation'
+2020-06-02 23:00:54:416 - [debug] [35m[WD Proxy][39m Proxying [GET /element/2964d3fc-031a-4902-86a6-d5fb5b81681b/location] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/location] with body: {}
+2020-06-02 23:00:54:481 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"x":44,"y":609}}
+2020-06-02 23:00:54:482 - [debug] [35m[WD Proxy][39m Matched '/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/size' to command name 'getSize'
+2020-06-02 23:00:54:482 - [debug] [35m[WD Proxy][39m Proxying [GET /element/2964d3fc-031a-4902-86a6-d5fb5b81681b/size] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/2964d3fc-031a-4902-86a6-d5fb5b81681b/size] with body: {}
+2020-06-02 23:00:54:528 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"width":176,"height":58}}
+2020-06-02 23:00:54:529 - [debug] [35m[WD Proxy][39m Matched '/touch/down' to command name 'touchDown'
+2020-06-02 23:00:54:530 - [debug] [35m[WD Proxy][39m Proxying [POST /touch/down] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/touch/down] with body: {"params":{"element":"2964d3fc-031a-4902-86a6-d5fb5b81681b","x":132,"y":638}}
+2020-06-02 23:00:55:343 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":true}
+2020-06-02 23:00:56:345 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.performTouch() result: null
+2020-06-02 23:00:56:346 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/touch/perform [39m[32m200[39m [90m1937 ms - 14[39m
+2020-06-02 23:00:56:346 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:56:348 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:56:348 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'置顶')]"}[39m
+2020-06-02 23:00:56:349 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'置顶')]","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:56:350 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:56:351 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:56:351 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:56:352 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'置顶')]","context":"","multiple":false}
+2020-06-02 23:00:56:432 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"ELEMENT":"b9d1f270-89c9-49da-8963-95460004f07c"}}
+2020-06-02 23:00:56:433 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b9d1f270-89c9-49da-8963-95460004f07c","ELEMENT":"b9d1f270-89c9-49da-8963-95460004f07c"}
+2020-06-02 23:00:56:434 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[32m200[39m [90m86 ms - 137[39m
+2020-06-02 23:00:56:434 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:56:437 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/b9d1f270-89c9-49da-8963-95460004f07c/displayed[39m
+2020-06-02 23:00:56:437 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:00:56:438 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.elementDisplayed() with args: ["b9d1f270-89c9-49da-8963-95460004f07c","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:56:439 - [debug] [35m[WD Proxy][39m Matched '/element/b9d1f270-89c9-49da-8963-95460004f07c/attribute/displayed' to command name 'getAttribute'
+2020-06-02 23:00:56:440 - [debug] [35m[WD Proxy][39m Proxying [GET /element/b9d1f270-89c9-49da-8963-95460004f07c/attribute/displayed] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/b9d1f270-89c9-49da-8963-95460004f07c/attribute/displayed] with body: {}
+2020-06-02 23:00:56:478 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":"true"}
+2020-06-02 23:00:56:479 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.elementDisplayed() result: true
+2020-06-02 23:00:56:480 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/b9d1f270-89c9-49da-8963-95460004f07c/displayed [39m[32m200[39m [90m43 ms - 14[39m
+2020-06-02 23:00:56:480 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:56:482 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/b9d1f270-89c9-49da-8963-95460004f07c/click[39m
+2020-06-02 23:00:56:482 - [35m[HTTP][39m [90m{"id":"b9d1f270-89c9-49da-8963-95460004f07c"}[39m
+2020-06-02 23:00:56:483 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.click() with args: ["b9d1f270-89c9-49da-8963-95460004f07c","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:56:485 - [debug] [35m[WD Proxy][39m Matched '/element/b9d1f270-89c9-49da-8963-95460004f07c/click' to command name 'click'
+2020-06-02 23:00:56:485 - [debug] [35m[WD Proxy][39m Proxying [POST /element/b9d1f270-89c9-49da-8963-95460004f07c/click] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/b9d1f270-89c9-49da-8963-95460004f07c/click] with body: {"element":"b9d1f270-89c9-49da-8963-95460004f07c"}
+2020-06-02 23:00:56:551 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":true}
+2020-06-02 23:00:56:552 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.click() result: true
+2020-06-02 23:00:56:553 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/b9d1f270-89c9-49da-8963-95460004f07c/click [39m[32m200[39m [90m70 ms - 14[39m
+2020-06-02 23:00:56:553 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:56:555 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element[39m
+2020-06-02 23:00:56:555 - [35m[HTTP][39m [90m{"using":"id","value":"com.xueqiu.android:id/content_recycler"}[39m
+2020-06-02 23:00:56:556 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.findElement() with args: ["id","com.xueqiu.android:id/content_recycler","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:56:558 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:00:56:558 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:00:56:558 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:00:56:559 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element] with body: {"strategy":"id","selector":"com.xueqiu.android:id/content_recycler","context":"","multiple":false}
+2020-06-02 23:00:57:479 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":{"ELEMENT":"cf041624-c54d-438d-9a96-d99b070dde87"}}
+2020-06-02 23:00:57:480 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"cf041624-c54d-438d-9a96-d99b070dde87","ELEMENT":"cf041624-c54d-438d-9a96-d99b070dde87"}
+2020-06-02 23:00:57:481 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element [39m[32m200[39m [90m925 ms - 137[39m
+2020-06-02 23:00:57:483 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:57:484 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/cf041624-c54d-438d-9a96-d99b070dde87/displayed[39m
+2020-06-02 23:00:57:484 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:00:57:485 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.elementDisplayed() with args: ["cf041624-c54d-438d-9a96-d99b070dde87","62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:57:487 - [debug] [35m[WD Proxy][39m Matched '/element/cf041624-c54d-438d-9a96-d99b070dde87/attribute/displayed' to command name 'getAttribute'
+2020-06-02 23:00:57:487 - [debug] [35m[WD Proxy][39m Proxying [GET /element/cf041624-c54d-438d-9a96-d99b070dde87/attribute/displayed] to [GET http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028/element/cf041624-c54d-438d-9a96-d99b070dde87/attribute/displayed] with body: {}
+2020-06-02 23:00:57:539 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":"true"}
+2020-06-02 23:00:57:540 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.elementDisplayed() result: true
+2020-06-02 23:00:57:541 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/element/cf041624-c54d-438d-9a96-d99b070dde87/displayed [39m[32m200[39m [90m56 ms - 14[39m
+2020-06-02 23:00:57:541 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:57:638 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/appium/app/close[39m
+2020-06-02 23:00:57:638 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:00:57:643 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.closeApp() with args: ["62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:57:644 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am force-stop com.xueqiu.android'
+2020-06-02 23:00:57:782 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.closeApp() result: null
+2020-06-02 23:00:57:784 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453/appium/app/close [39m[32m200[39m [90m146 ms - 14[39m
+2020-06-02 23:00:57:784 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:57:786 - [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/62359954-bcfc-4143-8510-d943680e9453[39m
+2020-06-02 23:00:57:787 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:00:57:787 - [debug] [35m[W3C (62359954)][39m Calling AppiumDriver.deleteSession() with args: ["62359954-bcfc-4143-8510-d943680e9453"]
+2020-06-02 23:00:57:787 - [debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1591110057787 (23:00:57 GMT+0800 (China Standard Time))
+2020-06-02 23:00:57:788 - [35m[Appium][39m Removing session 62359954-bcfc-4143-8510-d943680e9453 from our master session list
+2020-06-02 23:00:57:789 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+2020-06-02 23:00:57:789 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+2020-06-02 23:00:57:789 - [debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+2020-06-02 23:00:57:790 - [debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:6726/wd/hub/session/7ad395e5-de73-4380-b0d2-ad3c9a641028] with no body
+2020-06-02 23:00:57:810 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"7ad395e5-de73-4380-b0d2-ad3c9a641028","status":0,"value":"Session deleted"}
+2020-06-02 23:00:57:811 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am force-stop com.xueqiu.android'
+2020-06-02 23:00:57:869 - [debug] [35m[Logcat][39m Stopping logcat capture
+2020-06-02 23:00:57:872 - [debug] [35m[ADB][39m Removing forwarded port socket connection: 6726 
+2020-06-02 23:00:57:873 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 forward --remove tcp\:6726'
+2020-06-02 23:00:57:882 - [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+2020-06-02 23:00:57:883 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings delete global hidden_api_policy_pre_p_apps'
+2020-06-02 23:00:57:919 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings delete global hidden_api_policy_p_apps'
+2020-06-02 23:00:57:958 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings delete global hidden_api_policy'
+2020-06-02 23:00:58:020 - [debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1591110058020 (23:00:58 GMT+0800 (China Standard Time))
+2020-06-02 23:00:58:020 - [debug] [35m[W3C (62359954)][39m Received response: null
+2020-06-02 23:00:58:021 - [debug] [35m[W3C (62359954)][39m But deleting session, so not returning
+2020-06-02 23:00:58:021 - [debug] [35m[W3C (62359954)][39m Responding to client with driver.deleteSession() result: null
+2020-06-02 23:00:58:024 - [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/62359954-bcfc-4143-8510-d943680e9453 [39m[32m200[39m [90m238 ms - 14[39m
+2020-06-02 23:00:58:025 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:00:58:037 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+2020-06-02 23:00:58:038 - [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"5483e9c3","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"7.1.2","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6726,"appium:noReset":true,"appium:autoGrantPermissions":true}]},"desiredCapabilities":{"platformName":"Android","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true}}[39m
+2020-06-02 23:00:58:038 - [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"5483e9c3","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"7.1.2","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6726,"appium:noReset":true,"appium:autoGrantPermissions":true}]}]
+2020-06-02 23:00:58:038 - [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1591110058038 (23:00:58 GMT+0800 (China Standard Time))
+2020-06-02 23:00:58:039 - [35m[BaseDriver][39m The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2020-06-02 23:00:58:040 - [35m[Appium][39m 
+2020-06-02 23:00:58:040 - [35m[Appium][39m ======================================================================
+2020-06-02 23:00:58:040 - [35m[Appium][39m   DEPRECATION WARNING:
+2020-06-02 23:00:58:041 - [35m[Appium][39m 
+2020-06-02 23:00:58:041 - [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+2020-06-02 23:00:58:041 - [35m[Appium][39m   capabilities for this Android session
+2020-06-02 23:00:58:041 - [35m[Appium][39m 
+2020-06-02 23:00:58:041 - [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+2020-06-02 23:00:58:041 - [35m[Appium][39m   UiAutomator2 Driver
+2020-06-02 23:00:58:041 - [35m[Appium][39m 
+2020-06-02 23:00:58:041 - [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+2020-06-02 23:00:58:041 - [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   platforms
+2020-06-02 23:00:58:042 - [35m[Appium][39m 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   'automationName=UiAutomator1'
+2020-06-02 23:00:58:042 - [35m[Appium][39m 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+2020-06-02 23:00:58:042 - [35m[Appium][39m 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   For more information about drivers, please visit 
+2020-06-02 23:00:58:042 - [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-06-02 23:00:58:043 - [35m[Appium][39m   'Drivers' menu
+2020-06-02 23:00:58:043 - [35m[Appium][39m 
+2020-06-02 23:00:58:043 - [35m[Appium][39m ======================================================================
+2020-06-02 23:00:58:043 - [35m[Appium][39m 
+2020-06-02 23:00:58:043 - [35m[Appium][39m Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.34.0) session
+2020-06-02 23:00:58:043 - [35m[Appium][39m Capabilities:
+2020-06-02 23:00:58:043 - [35m[Appium][39m   platformName: Android
+2020-06-02 23:00:58:043 - [35m[Appium][39m   udid: 5483e9c3
+2020-06-02 23:00:58:044 - [35m[Appium][39m   deviceName: 5483e9c3
+2020-06-02 23:00:58:044 - [35m[Appium][39m   appPackage: com.xueqiu.android
+2020-06-02 23:00:58:044 - [35m[Appium][39m   platformVersion: 7.1.2
+2020-06-02 23:00:58:044 - [35m[Appium][39m   appActivity: .view.WelcomeActivityAlias
+2020-06-02 23:00:58:044 - [35m[Appium][39m   newCommandTimeout: 120
+2020-06-02 23:00:58:044 - [35m[Appium][39m   systemPort: 6726
+2020-06-02 23:00:58:044 - [35m[Appium][39m   noReset: true
+2020-06-02 23:00:58:044 - [35m[Appium][39m   autoGrantPermissions: true
+2020-06-02 23:00:58:045 - [debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+2020-06-02 23:00:58:045 - [debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m   "alwaysMatch": {
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m     "platformName": "Android",
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m     "appium:udid": "5483e9c3",
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m     "appium:deviceName": "5483e9c3",
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m     "appium:appPackage": "com.xueqiu.android",
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m     "appium:platformVersion": "7.1.2",
+2020-06-02 23:00:58:046 - [debug] [35m[BaseDriver][39m     "appium:appActivity": ".view.WelcomeActivityAlias",
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 120,
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m     "appium:systemPort": 6726,
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m     "appium:noReset": true,
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m   },
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m   "firstMatch": [
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m     {}
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m   ]
+2020-06-02 23:00:58:047 - [debug] [35m[BaseDriver][39m }
+2020-06-02 23:00:58:052 - [35m[BaseDriver][39m Session created with session id: aa2e304f-ada4-43c1-82b2-4f5972f6cf38
+2020-06-02 23:00:58:053 - [35m[ADB][39m Using 'adb' from '/Users/tangyao/Android/sdk/platform-tools/adb'
+2020-06-02 23:00:58:054 - [35m[AndroidDriver][39m Retrieving device list
+2020-06-02 23:00:58:054 - [debug] [35m[ADB][39m Trying to find a connected android device
+2020-06-02 23:00:58:054 - [debug] [35m[ADB][39m Getting connected devices...
+2020-06-02 23:00:58:066 - [debug] [35m[ADB][39m 1 device(s) connected
+2020-06-02 23:00:58:066 - [35m[AndroidDriver][39m Using device: 5483e9c3
+2020-06-02 23:00:58:067 - [35m[ADB][39m Using 'adb' from '/Users/tangyao/Android/sdk/platform-tools/adb'
+2020-06-02 23:00:58:067 - [debug] [35m[ADB][39m Setting device id to 5483e9c3
+2020-06-02 23:00:58:067 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell getprop ro.build.version.sdk'
+2020-06-02 23:00:58:092 - [debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 29
+2020-06-02 23:00:58:092 - [debug] [35m[ADB][39m Device API level: 29
+2020-06-02 23:00:58:093 - [35m[UiAutomator2][39m Relaxing hidden api policy
+2020-06-02 23:00:58:093 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings put global hidden_api_policy_pre_p_apps 1'
+2020-06-02 23:00:58:131 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings put global hidden_api_policy_p_apps 1'
+2020-06-02 23:00:58:169 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings put global hidden_api_policy 1'
+2020-06-02 23:00:58:253 - [35m[AndroidDriver][39m No app sent in, not parsing package/activity
+2020-06-02 23:00:58:254 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 wait-for-device'
+2020-06-02 23:00:58:265 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell echo ping'
+2020-06-02 23:00:58:317 - [debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+2020-06-02 23:00:58:317 - [debug] [35m[ADB][39m Getting install status for io.appium.settings
+2020-06-02 23:00:58:318 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.settings'
+2020-06-02 23:00:58:413 - [debug] [35m[ADB][39m 'io.appium.settings' is installed
+2020-06-02 23:00:58:414 - [debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+2020-06-02 23:00:58:414 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.settings'
+2020-06-02 23:00:58:509 - [35m[ADB][39m Using 'apkanalyzer' from '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer'
+2020-06-02 23:00:58:509 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer' with args ["manifest","print","/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.14.1@io.appium.settings/apks/settings_apk-debug.apk"]
+2020-06-02 23:00:58:780 - [debug] [35m[Instrumentation][39m .
+2020-06-02 23:00:59:175 - [debug] [35m[Instrumentation][39m Time: 17.057
+2020-06-02 23:00:59:176 - [debug] [35m[Instrumentation][39m 
+2020-06-02 23:00:59:176 - [debug] [35m[Instrumentation][39m OK (1 test)
+2020-06-02 23:00:59:286 - [debug] [35m[Instrumentation][39m The process has exited with code 0
+2020-06-02 23:01:00:601 - [debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2020-06-02 23:01:00:601 - [debug] [35m[ADB][39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.14.1@io.appium.settings/apks/settings_apk-debug.apk'
+2020-06-02 23:01:00:601 - [debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+2020-06-02 23:01:00:602 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell 'pgrep --help; echo $?''
+2020-06-02 23:01:00:701 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell pgrep -f io\.appium\.settings'
+2020-06-02 23:01:00:811 - [debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+2020-06-02 23:01:00:812 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell appops set io.appium.settings android\:mock_location allow'
+2020-06-02 23:01:00:904 - [debug] [35m[Logcat][39m Starting logcat capture
+2020-06-02 23:01:00:972 - [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+2020-06-02 23:01:00:973 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.uiautomator2.server'
+2020-06-02 23:01:01:043 - [debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+2020-06-02 23:01:01:044 - [debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+2020-06-02 23:01:01:044 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.uiautomator2.server'
+2020-06-02 23:01:01:117 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/tools/bin/apkanalyzer' with args ["manifest","print","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk"]
+2020-06-02 23:01:03:545 - [debug] [35m[ADB][39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.8.1' >= '3.8.1')
+2020-06-02 23:01:03:546 - [debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-06-02 23:01:03:546 - [debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk
+2020-06-02 23:01:03:554 - [35m[ADB][39m Using 'apksigner' from '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner'
+2020-06-02 23:01:03:554 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk"]'
+2020-06-02 23:01:03:712 - [35m[ADB][39m Got an error during apksigner execution: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' exited with code 1
+2020-06-02 23:01:03:712 - [35m[ADB][39m apksigner stderr: Error: A JNI error has occurred, please check your installation and try again
+2020-06-02 23:01:03:712 - [35m[ADB][39m Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.security.AccessController.doPrivileged(Native Method)
+2020-06-02 23:01:03:713 - [35m[ADB][39m 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-06-02 23:01:03:714 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-06-02 23:01:03:714 - [35m[ADB][39m 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-06-02 23:01:03:714 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-06-02 23:01:03:714 - [35m[ADB][39m 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-06-02 23:01:03:714 - [35m[ADB][39m 
+2020-06-02 23:01:03:714 - [35m[ADB][39m Cannot use apksigner tool for signature verification. Original error: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' exited with code 1
+2020-06-02 23:01:03:714 - [debug] [35m[ADB][39m Defaulting to verify.jar
+2020-06-02 23:01:03:998 - [debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' is already signed.
+2020-06-02 23:01:03:999 - [debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+2020-06-02 23:01:03:999 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-06-02 23:01:04:103 - [debug] [35m[ADB][39m 'io.appium.uiautomator2.server.test' is installed
+2020-06-02 23:01:04:111 - [debug] [35m[ADB][39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2020-06-02 23:01:04:112 - [debug] [35m[ADB][39m Starting '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-06-02 23:01:04:277 - [35m[ADB][39m Got an error during apksigner execution: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-06-02 23:01:04:277 - [35m[ADB][39m apksigner stderr: Error: A JNI error has occurred, please check your installation and try again
+2020-06-02 23:01:04:277 - [35m[ADB][39m Exception in thread "main" java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+2020-06-02 23:01:04:278 - [35m[ADB][39m 	at java.security.AccessController.doPrivileged(Native Method)
+2020-06-02 23:01:04:279 - [35m[ADB][39m 	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+2020-06-02 23:01:04:279 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2020-06-02 23:01:04:279 - [35m[ADB][39m 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+2020-06-02 23:01:04:279 - [35m[ADB][39m 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2020-06-02 23:01:04:279 - [35m[ADB][39m 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-06-02 23:01:04:279 - [35m[ADB][39m 
+2020-06-02 23:01:04:279 - [35m[ADB][39m Cannot use apksigner tool for signature verification. Original error: Command '/Users/tangyao/Android/sdk/build-tools/30.0.0-rc2/apksigner verify --print-certs /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server\@3.8.1\@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-06-02 23:01:04:279 - [debug] [35m[ADB][39m Defaulting to verify.jar
+2020-06-02 23:01:04:517 - [debug] [35m[ADB][39m '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-06-02 23:01:04:518 - [35m[UiAutomator2][39m Server packages are not going to be (re)installed
+2020-06-02 23:01:04:518 - [debug] [35m[UiAutomator2][39m Waiting up to 30000ms for services to be available
+2020-06-02 23:01:04:518 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell pm list instrumentation'
+2020-06-02 23:01:04:631 - [debug] [35m[UiAutomator2][39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-06-02 23:01:04:631 - [debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 6726
+2020-06-02 23:01:04:631 - [debug] [35m[ADB][39m Forwarding system: 6726 to device: 6790
+2020-06-02 23:01:04:632 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 forward tcp\:6726 tcp\:6790'
+2020-06-02 23:01:04:643 - [debug] [35m[UiAutomator2][39m No app capability. Assuming it is already on the device
+2020-06-02 23:01:04:643 - [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
+2020-06-02 23:01:04:656 - [debug] [35m[UiAutomator2][39m No obsolete sessions have been detected (Error: socket hang up)
+2020-06-02 23:01:04:657 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am force-stop io.appium.uiautomator2.server.test'
+2020-06-02 23:01:04:786 - [35m[UiAutomator2][39m Starting UIAutomator2 server 3.8.1
+2020-06-02 23:01:04:786 - [35m[UiAutomator2][39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v3.8.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@3.8.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2020-06-02 23:01:04:786 - [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+2020-06-02 23:01:04:787 - [debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","5483e9c3","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-06-02 23:01:05:797 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-06-02 23:01:05:798 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6726/wd/hub/status] with no body
+2020-06-02 23:01:05:801 - [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-06-02 23:01:05:809 - [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+2020-06-02 23:01:06:814 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-06-02 23:01:06:815 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6726/wd/hub/status] with no body
+2020-06-02 23:01:06:823 - [35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+2020-06-02 23:01:07:827 - [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+2020-06-02 23:01:07:827 - [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://localhost:6726/wd/hub/status] with no body
+2020-06-02 23:01:07:898 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","status":0,"value":"Status Invoked"}
+2020-06-02 23:01:07:898 - [debug] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP'
+2020-06-02 23:01:07:899 - [debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3113ms
+2020-06-02 23:01:07:899 - [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+2020-06-02 23:01:07:899 - [debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://localhost:6726/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true},"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true,"deviceUDID":"5483e9c3"}}
+2020-06-02 23:01:07:940 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":"Created Session"}
+2020-06-02 23:01:07:941 - [debug] [35m[WD Proxy][39m Determined the downstream protocol as 'MJSONWP' per session creation request
+2020-06-02 23:01:07:944 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/appium/device/info] with no body
+2020-06-02 23:01:07:999 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":{"androidId":"405f120cdfa7799f","manufacturer":"Xiaomi","model":"MI 8","brand":"Xiaomi","apiVersion":"29","platformVersion":"10","carrierName":"","realDisplaySize":"1080x2248","displayDensity":440,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-52,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai"}}
+2020-06-02 23:01:07:999 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell dumpsys window'
+2020-06-02 23:01:08:128 - [35m[AndroidDriver][39m Screen already unlocked, doing nothing
+2020-06-02 23:01:08:129 - [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'com.xueqiu.android/.view.WelcomeActivityAlias'. Starting it ourselves
+2020-06-02 23:01:08:130 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am start -W -n com.xueqiu.android/.view.WelcomeActivityAlias -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-06-02 23:01:08:898 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/appium/device/pixel_ratio] with body: {}
+2020-06-02 23:01:08:911 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":2.75}
+2020-06-02 23:01:08:914 - [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-06-02 23:01:08:914 - [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/appium/device/system_bars] with body: {}
+2020-06-02 23:01:08:930 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":{"statusBar":89}}
+2020-06-02 23:01:08:930 - [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
+2020-06-02 23:01:08:931 - [debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/window/current/size] with body: {}
+2020-06-02 23:01:08:941 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":{"height":2029,"width":1080}}
+2020-06-02 23:01:08:942 - [35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session aa2e304f-ada4-43c1-82b2-4f5972f6cf38 added to master session list
+2020-06-02 23:01:08:942 - [debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1591110068942 (23:01:08 GMT+0800 (China Standard Time))
+2020-06-02 23:01:08:943 - [debug] [35m[W3C (aa2e304f)][39m Cached the protocol value 'W3C' for the new session aa2e304f-ada4-43c1-82b2-4f5972f6cf38
+2020-06-02 23:01:08:943 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"7.1.2","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true},"platformName":"Android","udid":"5483e9c3","deviceName":"5483e9c3","appPackage":"com.xueqiu.android","platformVersion":"10","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6726,"noReset":true,"autoGrantPermissions":true,"deviceUDID":"5483e9c3","deviceApiLevel":29,"deviceScreenSize":"1080x2248","deviceScreenDensity":440,"deviceModel":"MI 8","deviceManufacturer":"Xiaomi","pixelRatio":2.75,"statBarHeight":89,"viewportRect":{"left":0,"top":89,"width":1080,"height":1940}}}
+2020-06-02 23:01:08:944 - [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10907 ms - 1043[39m
+2020-06-02 23:01:08:945 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:10:950 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:10:950 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:10:951 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:10:960 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:10:961 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:10:961 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:10:962 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:11:662 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:11:662 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:11:664 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:11:664 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:11:666 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m715 ms - 417[39m
+2020-06-02 23:01:11:666 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:11:871 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:11:871 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:11:872 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:11:873 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:11:873 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:11:877 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:11:878 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:12:002 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:12:003 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:12:007 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:12:007 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:12:008 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m137 ms - 417[39m
+2020-06-02 23:01:12:009 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:12:212 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:12:212 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:12:213 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:12:214 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:12:214 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:12:215 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:12:216 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:12:331 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:12:332 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:12:333 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:12:334 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:12:335 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m122 ms - 417[39m
+2020-06-02 23:01:12:335 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:12:539 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:12:540 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:12:540 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:12:541 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:12:542 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:12:545 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:12:546 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:12:653 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:12:653 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:12:654 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:12:655 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:12:656 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m116 ms - 417[39m
+2020-06-02 23:01:12:656 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:12:860 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:12:860 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:12:861 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:12:862 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:12:863 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:12:864 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:12:864 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:12:976 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:12:977 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:12:978 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:12:978 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:12:979 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m119 ms - 417[39m
+2020-06-02 23:01:12:980 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:13:184 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:13:184 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:13:185 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:13:186 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:13:186 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:13:190 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:13:190 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:13:291 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:13:292 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:13:293 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:13:293 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:13:295 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m110 ms - 417[39m
+2020-06-02 23:01:13:295 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:13:498 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:13:499 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:13:499 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:13:500 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:13:500 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:13:502 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:13:503 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:13:606 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:13:607 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:13:607 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:13:608 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:13:608 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m110 ms - 417[39m
+2020-06-02 23:01:13:608 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:13:812 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:13:812 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:13:813 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:13:813 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:13:814 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:13:814 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:13:815 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:13:920 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:13:921 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:13:922 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:13:922 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:13:924 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m111 ms - 417[39m
+2020-06-02 23:01:13:925 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:14:126 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:14:126 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:14:127 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:14:128 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:14:128 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:14:129 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:14:129 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:14:422 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:14:422 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:14:423 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:14:423 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:14:424 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m298 ms - 417[39m
+2020-06-02 23:01:14:424 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:14:627 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:14:627 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text='交易']"}[39m
+2020-06-02 23:01:14:628 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='交易']","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:14:628 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:14:629 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:14:629 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:14:630 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[@text='交易']","context":"","multiple":false}
+2020-06-02 23:01:17:199 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":{"ELEMENT":"4d3ce122-fc93-4457-ad7f-d580573c7c5c"}}
+2020-06-02 23:01:17:200 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4d3ce122-fc93-4457-ad7f-d580573c7c5c","ELEMENT":"4d3ce122-fc93-4457-ad7f-d580573c7c5c"}
+2020-06-02 23:01:17:201 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[32m200[39m [90m2574 ms - 137[39m
+2020-06-02 23:01:17:202 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:17:204 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/displayed[39m
+2020-06-02 23:01:17:204 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:01:17:205 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.elementDisplayed() with args: ["4d3ce122-fc93-4457-ad7f-d580573c7c5c","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:17:209 - [debug] [35m[WD Proxy][39m Matched '/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/attribute/displayed' to command name 'getAttribute'
+2020-06-02 23:01:17:209 - [debug] [35m[WD Proxy][39m Proxying [GET /element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/attribute/displayed] to [GET http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/attribute/displayed] with body: {}
+2020-06-02 23:01:17:244 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":"true"}
+2020-06-02 23:01:17:244 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.elementDisplayed() result: true
+2020-06-02 23:01:17:245 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/displayed [39m[32m200[39m [90m41 ms - 14[39m
+2020-06-02 23:01:17:246 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:17:249 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/click[39m
+2020-06-02 23:01:17:249 - [35m[HTTP][39m [90m{"id":"4d3ce122-fc93-4457-ad7f-d580573c7c5c"}[39m
+2020-06-02 23:01:17:250 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.click() with args: ["4d3ce122-fc93-4457-ad7f-d580573c7c5c","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:17:252 - [debug] [35m[WD Proxy][39m Matched '/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/click' to command name 'click'
+2020-06-02 23:01:17:252 - [debug] [35m[WD Proxy][39m Proxying [POST /element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/click] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/click] with body: {"element":"4d3ce122-fc93-4457-ad7f-d580573c7c5c"}
+2020-06-02 23:01:17:348 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":true}
+2020-06-02 23:01:17:349 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.click() result: true
+2020-06-02 23:01:17:349 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/4d3ce122-fc93-4457-ad7f-d580573c7c5c/click [39m[32m200[39m [90m100 ms - 14[39m
+2020-06-02 23:01:17:350 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:17:351 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/contexts[39m
+2020-06-02 23:01:17:352 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:01:17:352 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.getContexts() with args: ["aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:17:354 - [debug] [35m[AndroidDriver][39m Getting a list of available webviews
+2020-06-02 23:01:17:355 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell cat /proc/net/unix'
+2020-06-02 23:01:17:404 - [35m[AndroidDriver][39m Not checking whether webviews have active pages; use the 'ensureWebviewsHavePages' cap to turn this check on
+2020-06-02 23:01:17:405 - [debug] [35m[AndroidDriver][39m Found webviews: []
+2020-06-02 23:01:17:406 - [debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+2020-06-02 23:01:17:406 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+2020-06-02 23:01:17:407 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/contexts [39m[32m200[39m [90m56 ms - 24[39m
+2020-06-02 23:01:17:408 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:17:410 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:17:410 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'A股开户')]"}[39m
+2020-06-02 23:01:17:411 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'A股开户')]","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:17:412 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:17:412 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:17:413 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:17:413 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'A股开户')]","context":"","multiple":false}
+2020-06-02 23:01:17:906 - [35m[WD Proxy][39m Got an unexpected response: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":7,"value":"An element could not be located on the page using the given search parameters."}
+2020-06-02 23:01:17:907 - [debug] [35m[MJSONWP][39m Matched JSONWP error code 7 to NoSuchElementError
+2020-06-02 23:01:17:908 - [debug] [35m[W3C (aa2e304f)][39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2020-06-02 23:01:17:908 - [debug] [35m[W3C (aa2e304f)][39m     at AndroidUiautomator2Driver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/_appium-android-driver@4.18.1@appium-android-driver/lib/commands/find.js:75:11)
+2020-06-02 23:01:17:909 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[33m404[39m [90m498 ms - 417[39m
+2020-06-02 23:01:17:909 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:18:111 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:18:113 - [35m[HTTP][39m [90m{"using":"xpath","value":"//*[contains(@text,'A股开户')]"}[39m
+2020-06-02 23:01:18:114 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[contains(@text,'A股开户')]","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:18:115 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:18:115 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:18:116 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:18:116 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"xpath","selector":"//*[contains(@text,'A股开户')]","context":"","multiple":false}
+2020-06-02 23:01:18:951 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":{"ELEMENT":"d65f2b81-f857-4263-84b8-e73f9711d8b0"}}
+2020-06-02 23:01:18:952 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d65f2b81-f857-4263-84b8-e73f9711d8b0","ELEMENT":"d65f2b81-f857-4263-84b8-e73f9711d8b0"}
+2020-06-02 23:01:18:953 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[32m200[39m [90m841 ms - 137[39m
+2020-06-02 23:01:18:953 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:18:955 - [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/displayed[39m
+2020-06-02 23:01:18:955 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:01:18:956 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.elementDisplayed() with args: ["d65f2b81-f857-4263-84b8-e73f9711d8b0","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:18:958 - [debug] [35m[WD Proxy][39m Matched '/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/attribute/displayed' to command name 'getAttribute'
+2020-06-02 23:01:18:958 - [debug] [35m[WD Proxy][39m Proxying [GET /element/d65f2b81-f857-4263-84b8-e73f9711d8b0/attribute/displayed] to [GET http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/attribute/displayed] with body: {}
+2020-06-02 23:01:19:012 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":"true"}
+2020-06-02 23:01:19:012 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.elementDisplayed() result: true
+2020-06-02 23:01:19:013 - [35m[HTTP][39m [37m<-- GET /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/displayed [39m[32m200[39m [90m58 ms - 14[39m
+2020-06-02 23:01:19:014 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:19:015 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/click[39m
+2020-06-02 23:01:19:016 - [35m[HTTP][39m [90m{"id":"d65f2b81-f857-4263-84b8-e73f9711d8b0"}[39m
+2020-06-02 23:01:19:016 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.click() with args: ["d65f2b81-f857-4263-84b8-e73f9711d8b0","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:19:018 - [debug] [35m[WD Proxy][39m Matched '/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/click' to command name 'click'
+2020-06-02 23:01:19:019 - [debug] [35m[WD Proxy][39m Proxying [POST /element/d65f2b81-f857-4263-84b8-e73f9711d8b0/click] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/click] with body: {"element":"d65f2b81-f857-4263-84b8-e73f9711d8b0"}
+2020-06-02 23:01:19:132 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":true}
+2020-06-02 23:01:19:133 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.click() result: true
+2020-06-02 23:01:19:134 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/d65f2b81-f857-4263-84b8-e73f9711d8b0/click [39m[32m200[39m [90m118 ms - 14[39m
+2020-06-02 23:01:19:134 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:19:136 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element[39m
+2020-06-02 23:01:19:136 - [35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().resourceId(\"phone-number\")"}[39m
+2020-06-02 23:01:19:137 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"phone-number\")","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:19:139 - [debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-06-02 23:01:19:139 - [debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+2020-06-02 23:01:19:139 - [debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+2020-06-02 23:01:19:140 - [debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"phone-number\")","context":"","multiple":false}
+2020-06-02 23:01:20:614 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":{"ELEMENT":"561bdf98-d509-4fb1-b460-d34ba0b1dfcb"}}
+2020-06-02 23:01:20:616 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"561bdf98-d509-4fb1-b460-d34ba0b1dfcb","ELEMENT":"561bdf98-d509-4fb1-b460-d34ba0b1dfcb"}
+2020-06-02 23:01:20:616 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element [39m[32m200[39m [90m1480 ms - 137[39m
+2020-06-02 23:01:20:620 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:20:622 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/561bdf98-d509-4fb1-b460-d34ba0b1dfcb/value[39m
+2020-06-02 23:01:20:622 - [35m[HTTP][39m [90m{"text":"111","value":["1","1","1"],"id":"561bdf98-d509-4fb1-b460-d34ba0b1dfcb"}[39m
+2020-06-02 23:01:20:623 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.setValue() with args: [["1","1","1"],"561bdf98-d509-4fb1-b460-d34ba0b1dfcb","aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:20:626 - [debug] [35m[WD Proxy][39m Matched '/element/561bdf98-d509-4fb1-b460-d34ba0b1dfcb/value' to command name 'setValue'
+2020-06-02 23:01:20:627 - [debug] [35m[Protocol Converter][39m Added 'value' property ["1","1","1"] to 'setValue' request body
+2020-06-02 23:01:20:627 - [debug] [35m[WD Proxy][39m Proxying [POST /element/561bdf98-d509-4fb1-b460-d34ba0b1dfcb/value] to [POST http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a/element/561bdf98-d509-4fb1-b460-d34ba0b1dfcb/value] with body: {"elementId":"561bdf98-d509-4fb1-b460-d34ba0b1dfcb","text":"111","replace":false,"value":["1","1","1"]}
+2020-06-02 23:01:20:880 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":""}
+2020-06-02 23:01:20:881 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.setValue() result: ""
+2020-06-02 23:01:20:882 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/element/561bdf98-d509-4fb1-b460-d34ba0b1dfcb/value [39m[32m200[39m [90m259 ms - 12[39m
+2020-06-02 23:01:20:882 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:20:885 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/appium/app/close[39m
+2020-06-02 23:01:20:885 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:01:20:888 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.closeApp() with args: ["aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:20:890 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am force-stop com.xueqiu.android'
+2020-06-02 23:01:21:022 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.closeApp() result: null
+2020-06-02 23:01:21:023 - [35m[HTTP][39m [37m<-- POST /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38/appium/app/close [39m[32m200[39m [90m137 ms - 14[39m
+2020-06-02 23:01:21:023 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:21:026 - [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38[39m
+2020-06-02 23:01:21:026 - [35m[HTTP][39m [90m{}[39m
+2020-06-02 23:01:21:026 - [debug] [35m[W3C (aa2e304f)][39m Calling AppiumDriver.deleteSession() with args: ["aa2e304f-ada4-43c1-82b2-4f5972f6cf38"]
+2020-06-02 23:01:21:030 - [debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1591110081030 (23:01:21 GMT+0800 (China Standard Time))
+2020-06-02 23:01:21:030 - [35m[Appium][39m Removing session aa2e304f-ada4-43c1-82b2-4f5972f6cf38 from our master session list
+2020-06-02 23:01:21:030 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+2020-06-02 23:01:21:031 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+2020-06-02 23:01:21:031 - [debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+2020-06-02 23:01:21:031 - [debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:6726/wd/hub/session/c19be97f-de45-4998-87cc-71fd5e25391a] with no body
+2020-06-02 23:01:21:047 - [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"c19be97f-de45-4998-87cc-71fd5e25391a","status":0,"value":"Session deleted"}
+2020-06-02 23:01:21:048 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell am force-stop com.xueqiu.android'
+2020-06-02 23:01:21:093 - [debug] [35m[Logcat][39m Stopping logcat capture
+2020-06-02 23:01:21:095 - [debug] [35m[ADB][39m Removing forwarded port socket connection: 6726 
+2020-06-02 23:01:21:095 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 forward --remove tcp\:6726'
+2020-06-02 23:01:21:107 - [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+2020-06-02 23:01:21:107 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings delete global hidden_api_policy_pre_p_apps'
+2020-06-02 23:01:21:145 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings delete global hidden_api_policy_p_apps'
+2020-06-02 23:01:21:183 - [debug] [35m[ADB][39m Running '/Users/tangyao/Android/sdk/platform-tools/adb -P 5037 -s 5483e9c3 shell settings delete global hidden_api_policy'
+2020-06-02 23:01:21:223 - [debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1591110081223 (23:01:21 GMT+0800 (China Standard Time))
+2020-06-02 23:01:21:224 - [debug] [35m[W3C (aa2e304f)][39m Received response: null
+2020-06-02 23:01:21:225 - [debug] [35m[W3C (aa2e304f)][39m But deleting session, so not returning
+2020-06-02 23:01:21:225 - [debug] [35m[W3C (aa2e304f)][39m Responding to client with driver.deleteSession() result: null
+2020-06-02 23:01:21:226 - [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/aa2e304f-ada4-43c1-82b2-4f5972f6cf38 [39m[32m200[39m [90m199 ms - 14[39m
+2020-06-02 23:01:21:226 - [35m[HTTP][39m [90m[39m
+2020-06-02 23:01:21:398 - [35m[Appium][39m Received SIGTERM - shutting down
+2020-06-02 23:01:21:846 - [debug] [35m[Instrumentation][39m .
+2020-06-02 23:01:22:255 - [debug] [35m[Instrumentation][39m Time: 16.056
+2020-06-02 23:01:22:255 - [debug] [35m[Instrumentation][39m 
+2020-06-02 23:01:22:255 - [debug] [35m[Instrumentation][39m OK (1 test)
+2020-06-02 23:01:22:344 - [debug] [35m[Instrumentation][39m The process has exited with code 0

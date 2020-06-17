@@ -1,0 +1,102 @@
+2020-06-08 22:02:11,651 DEFAULT INFO 删除旧的报告
+2020-06-08 22:02:12,650 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:02:17,660 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:02:17,661 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:02:23,233 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:02:23,234 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:02:34,031 DEFAULT INFO 启动App成功
+2020-06-08 22:02:34,056 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:02:34,057 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:02:44,562 DEFAULT INFO 启动App成功
+2020-06-08 22:02:44,736 DEFAULT INFO 生成报告……
+2020-06-08 22:04:30,307 DEFAULT INFO 删除旧的报告
+2020-06-08 22:04:30,848 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:04:35,863 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:04:35,864 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:05:21,224 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:05:21,224 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:05:31,454 DEFAULT INFO 启动App成功
+2020-06-08 22:05:49,343 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:05:49,344 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:06:00,223 DEFAULT INFO 启动App成功
+2020-06-08 22:06:08,776 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 22:06:12,818 DEFAULT INFO 生成报告……
+2020-06-08 22:07:29,188 DEFAULT INFO 删除旧的报告
+2020-06-08 22:07:29,709 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:07:34,717 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:07:34,719 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:07:46,408 DEFAULT INFO 启动App成功
+2020-06-08 22:07:49,852 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:07:49,852 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:07:59,903 DEFAULT INFO 启动App成功
+2020-06-08 22:08:13,052 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:08:13,052 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:08:23,196 DEFAULT INFO 启动App成功
+2020-06-08 22:08:31,834 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 22:08:35,433 DEFAULT INFO 生成报告……
+2020-06-08 22:10:38,772 DEFAULT INFO 删除旧的报告
+2020-06-08 22:10:39,315 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:10:44,330 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:10:44,332 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:10:55,410 DEFAULT INFO 启动App成功
+2020-06-08 22:11:07,010 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:11:07,012 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:11:18,482 DEFAULT INFO 启动App成功
+2020-06-08 22:11:35,901 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:11:35,902 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:11:47,414 DEFAULT INFO 启动App成功
+2020-06-08 22:11:55,909 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 22:11:59,587 DEFAULT INFO 生成报告……
+2020-06-08 22:12:25,710 DEFAULT INFO 删除旧的报告
+2020-06-08 22:12:26,255 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:12:31,272 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:12:31,273 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:12:43,495 DEFAULT INFO 启动App成功
+2020-06-08 22:12:57,152 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:12:57,152 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:13:37,066 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:13:37,067 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:13:47,792 DEFAULT INFO 启动App成功
+2020-06-08 22:13:56,583 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 22:14:00,250 DEFAULT INFO 生成报告……
+2020-06-08 22:14:47,859 DEFAULT INFO 删除旧的报告
+2020-06-08 22:14:48,410 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:14:53,425 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:14:53,426 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:15:06,292 DEFAULT INFO 启动App成功
+2020-06-08 22:15:18,950 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:15:18,951 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:15:32,863 DEFAULT INFO 启动App成功
+2020-06-08 22:15:51,135 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:15:51,136 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:16:02,859 DEFAULT INFO 启动App成功
+2020-06-08 22:16:11,882 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 22:16:15,568 DEFAULT INFO 生成报告……
+2020-06-08 22:16:30,393 DEFAULT INFO 删除旧的报告
+2020-06-08 22:16:30,882 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 22:16:35,891 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:16:35,892 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:16:49,248 DEFAULT INFO 启动App成功
+2020-06-08 22:17:01,758 DEFAULT INFO 贵州茅台
+2020-06-08 22:17:01,775 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:17:01,775 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:17:13,490 DEFAULT INFO 启动App成功
+2020-06-08 22:17:19,873 DEFAULT INFO 读取配置文件成功
+2020-06-08 22:17:19,873 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 22:17:30,253 DEFAULT INFO 启动App成功
+2020-06-08 22:17:38,731 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 22:17:42,756 DEFAULT INFO 生成报告……
+2020-06-08 23:01:00,773 DEFAULT INFO 删除旧的报告
+2020-06-08 23:01:01,396 DEFAULT INFO appium -p 4726 -bp 6726 -U 5483e9c3 --log-timestamp --local-timezone
+2020-06-08 23:01:06,413 DEFAULT INFO 读取配置文件成功
+2020-06-08 23:01:06,414 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 23:01:17,864 DEFAULT INFO 启动App成功
+2020-06-08 23:01:30,884 DEFAULT INFO 贵州茅台
+2020-06-08 23:01:30,904 DEFAULT INFO 读取配置文件成功
+2020-06-08 23:01:30,905 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 23:01:42,400 DEFAULT INFO 启动App成功
+2020-06-08 23:02:00,361 DEFAULT INFO 读取配置文件成功
+2020-06-08 23:02:00,362 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-08 23:02:11,810 DEFAULT INFO 启动App成功
+2020-06-08 23:02:20,254 DEFAULT INFO ['NATIVE_APP']
+2020-06-08 23:02:24,066 DEFAULT INFO 生成报告……

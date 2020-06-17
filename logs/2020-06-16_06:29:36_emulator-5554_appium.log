@@ -1,0 +1,248 @@
+2020-06-16 06:29:39:800 - [35m[Appium][39m Welcome to Appium v1.14.1
+2020-06-16 06:29:39:805 - [35m[Appium][39m Non-default server args:
+2020-06-16 06:29:39:805 - [35m[Appium][39m   port: 4727
+2020-06-16 06:29:39:806 - [35m[Appium][39m   bootstrapPort: 6727
+2020-06-16 06:29:39:806 - [35m[Appium][39m   logTimestamp: true
+2020-06-16 06:29:39:806 - [35m[Appium][39m   localTimezone: true
+2020-06-16 06:29:39:833 - [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4727
+2020-06-16 06:29:42:026 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+2020-06-16 06:29:42:027 - [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:udid":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]},"desiredCapabilities":{"platformName":"Android","udid":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true}}[39m
+2020-06-16 06:29:42:028 - [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","udid":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true},null,{"firstMatch":[{"platformName":"Android","appium:udid":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]}]
+2020-06-16 06:29:42:029 - [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1592260182029 (06:29:42 GMT+0800 (China Standard Time))
+2020-06-16 06:29:42:035 - [35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank
+2020-06-16 06:29:42:036 - [35m[Appium][39m Trying to fix W3C capabilities by merging them with JSONWP caps
+2020-06-16 06:29:42:036 - [35m[BaseDriver][39m The capabilities ["udid","appPackage","platformVersion","appActivity","newCommandTimeout","systemPort","noReset","autoGrantPermissions"] are not standard capabilities and should have an extension prefix
+2020-06-16 06:29:42:037 - [35m[Appium][39m Could not parse fixed W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol
+2020-06-16 06:29:42:038 - [35m[Appium][39m 
+2020-06-16 06:29:42:039 - [35m[Appium][39m ======================================================================
+2020-06-16 06:29:42:039 - [35m[Appium][39m   DEPRECATION WARNING:
+2020-06-16 06:29:42:039 - [35m[Appium][39m 
+2020-06-16 06:29:42:039 - [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+2020-06-16 06:29:42:039 - [35m[Appium][39m   capabilities for this Android session
+2020-06-16 06:29:42:039 - [35m[Appium][39m 
+2020-06-16 06:29:42:039 - [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+2020-06-16 06:29:42:040 - [35m[Appium][39m   UiAutomator2 Driver
+2020-06-16 06:29:42:040 - [35m[Appium][39m 
+2020-06-16 06:29:42:040 - [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+2020-06-16 06:29:42:040 - [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+2020-06-16 06:29:42:040 - [35m[Appium][39m   platforms
+2020-06-16 06:29:42:040 - [35m[Appium][39m 
+2020-06-16 06:29:42:040 - [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+2020-06-16 06:29:42:040 - [35m[Appium][39m   'automationName=UiAutomator1'
+2020-06-16 06:29:42:041 - [35m[Appium][39m 
+2020-06-16 06:29:42:041 - [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+2020-06-16 06:29:42:041 - [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+2020-06-16 06:29:42:041 - [35m[Appium][39m 
+2020-06-16 06:29:42:041 - [35m[Appium][39m   For more information about drivers, please visit 
+2020-06-16 06:29:42:041 - [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-06-16 06:29:42:041 - [35m[Appium][39m   'Drivers' menu
+2020-06-16 06:29:42:041 - [35m[Appium][39m 
+2020-06-16 06:29:42:042 - [35m[Appium][39m ======================================================================
+2020-06-16 06:29:42:042 - [35m[Appium][39m 
+2020-06-16 06:29:42:305 - [35m[Appium][39m Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.34.0) session
+2020-06-16 06:29:42:305 - [35m[Appium][39m Capabilities:
+2020-06-16 06:29:42:305 - [35m[Appium][39m   platformName: Android
+2020-06-16 06:29:42:305 - [35m[Appium][39m   udid: emulator-5554
+2020-06-16 06:29:42:306 - [35m[Appium][39m   appPackage: com.xueqiu.android
+2020-06-16 06:29:42:306 - [35m[Appium][39m   platformVersion: 9
+2020-06-16 06:29:42:306 - [35m[Appium][39m   appActivity: .view.WelcomeActivityAlias
+2020-06-16 06:29:42:306 - [35m[Appium][39m   newCommandTimeout: 120
+2020-06-16 06:29:42:307 - [35m[Appium][39m   systemPort: 6727
+2020-06-16 06:29:42:307 - [35m[Appium][39m   noReset: true
+2020-06-16 06:29:42:307 - [35m[Appium][39m   autoGrantPermissions: true
+2020-06-16 06:29:42:309 - [debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+2020-06-16 06:29:42:309 - [debug] [35m[BaseDriver][39m   "platformName": "Android",
+2020-06-16 06:29:42:309 - [debug] [35m[BaseDriver][39m   "udid": "emulator-5554",
+2020-06-16 06:29:42:309 - [debug] [35m[BaseDriver][39m   "appPackage": "com.xueqiu.android",
+2020-06-16 06:29:42:309 - [debug] [35m[BaseDriver][39m   "platformVersion": "9",
+2020-06-16 06:29:42:310 - [debug] [35m[BaseDriver][39m   "appActivity": ".view.WelcomeActivityAlias",
+2020-06-16 06:29:42:310 - [debug] [35m[BaseDriver][39m   "newCommandTimeout": 120,
+2020-06-16 06:29:42:310 - [debug] [35m[BaseDriver][39m   "systemPort": 6727,
+2020-06-16 06:29:42:310 - [debug] [35m[BaseDriver][39m   "noReset": true,
+2020-06-16 06:29:42:310 - [debug] [35m[BaseDriver][39m   "autoGrantPermissions": true
+2020-06-16 06:29:42:310 - [debug] [35m[BaseDriver][39m }
+2020-06-16 06:29:42:461 - [35m[BaseDriver][39m SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2020-06-16 06:29:42:461 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:217:25)
+2020-06-16 06:29:42:461 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:145:18)
+2020-06-16 06:29:42:461 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps [as createSession] (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/commands/session.js:46:8)
+2020-06-16 06:29:42:461 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:151:43)
+2020-06-16 06:29:42:462 - [35m[BaseDriver][39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:362:43)
+2020-06-16 06:29:42:462 - [35m[BaseDriver][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-06-16 06:29:42:462 - [35m[BaseDriver][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:377:13)
+2020-06-16 06:29:42:462 - [35m[BaseDriver][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:491:14)
+2020-06-16 06:29:42:462 - [35m[BaseDriver][39m     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/protocol/protocol.js:285:21)
+2020-06-16 06:29:42:463 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+2020-06-16 06:29:42:463 - [debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1592260182463 (06:29:42 GMT+0800 (China Standard Time))
+2020-06-16 06:29:42:463 - [debug] [35m[MJSONWP][39m Encountered internal error running command: SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:217:25)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:145:18)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps [as createSession] (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/commands/session.js:46:8)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:151:43)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:362:43)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:377:13)
+2020-06-16 06:29:42:464 - [debug] [35m[MJSONWP][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:491:14)
+2020-06-16 06:29:42:465 - [debug] [35m[MJSONWP][39m     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/protocol/protocol.js:285:21)
+2020-06-16 06:29:42:470 - [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m441 ms - 199[39m
+2020-06-16 06:29:42:470 - [35m[HTTP][39m [90m[39m
+2020-06-16 06:29:42:666 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+2020-06-16 06:29:42:667 - [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:udid":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]},"desiredCapabilities":{"platformName":"Android","udid":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true}}[39m
+2020-06-16 06:29:42:667 - [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","udid":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true},null,{"firstMatch":[{"platformName":"Android","appium:udid":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]}]
+2020-06-16 06:29:42:667 - [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1592260182667 (06:29:42 GMT+0800 (China Standard Time))
+2020-06-16 06:29:42:669 - [35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank
+2020-06-16 06:29:42:669 - [35m[Appium][39m Trying to fix W3C capabilities by merging them with JSONWP caps
+2020-06-16 06:29:42:669 - [35m[BaseDriver][39m The capabilities ["udid","appPackage","platformVersion","appActivity","newCommandTimeout","systemPort","noReset","autoGrantPermissions"] are not standard capabilities and should have an extension prefix
+2020-06-16 06:29:42:670 - [35m[Appium][39m Could not parse fixed W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol
+2020-06-16 06:29:42:671 - [35m[Appium][39m 
+2020-06-16 06:29:42:671 - [35m[Appium][39m ======================================================================
+2020-06-16 06:29:42:671 - [35m[Appium][39m   DEPRECATION WARNING:
+2020-06-16 06:29:42:671 - [35m[Appium][39m 
+2020-06-16 06:29:42:671 - [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+2020-06-16 06:29:42:671 - [35m[Appium][39m   capabilities for this Android session
+2020-06-16 06:29:42:671 - [35m[Appium][39m 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   UiAutomator2 Driver
+2020-06-16 06:29:42:672 - [35m[Appium][39m 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   platforms
+2020-06-16 06:29:42:672 - [35m[Appium][39m 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+2020-06-16 06:29:42:672 - [35m[Appium][39m   'automationName=UiAutomator1'
+2020-06-16 06:29:42:673 - [35m[Appium][39m 
+2020-06-16 06:29:42:673 - [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+2020-06-16 06:29:42:673 - [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+2020-06-16 06:29:42:673 - [35m[Appium][39m 
+2020-06-16 06:29:42:673 - [35m[Appium][39m   For more information about drivers, please visit 
+2020-06-16 06:29:42:673 - [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-06-16 06:29:42:673 - [35m[Appium][39m   'Drivers' menu
+2020-06-16 06:29:42:674 - [35m[Appium][39m 
+2020-06-16 06:29:42:674 - [35m[Appium][39m ======================================================================
+2020-06-16 06:29:42:674 - [35m[Appium][39m 
+2020-06-16 06:29:42:674 - [35m[Appium][39m Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.34.0) session
+2020-06-16 06:29:42:674 - [35m[Appium][39m Capabilities:
+2020-06-16 06:29:42:674 - [35m[Appium][39m   platformName: Android
+2020-06-16 06:29:42:674 - [35m[Appium][39m   udid: emulator-5554
+2020-06-16 06:29:42:675 - [35m[Appium][39m   appPackage: com.xueqiu.android
+2020-06-16 06:29:42:675 - [35m[Appium][39m   platformVersion: 9
+2020-06-16 06:29:42:675 - [35m[Appium][39m   appActivity: .view.WelcomeActivityAlias
+2020-06-16 06:29:42:675 - [35m[Appium][39m   newCommandTimeout: 120
+2020-06-16 06:29:42:675 - [35m[Appium][39m   systemPort: 6727
+2020-06-16 06:29:42:675 - [35m[Appium][39m   noReset: true
+2020-06-16 06:29:42:675 - [35m[Appium][39m   autoGrantPermissions: true
+2020-06-16 06:29:42:676 - [debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "platformName": "Android",
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "udid": "emulator-5554",
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "appPackage": "com.xueqiu.android",
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "platformVersion": "9",
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "appActivity": ".view.WelcomeActivityAlias",
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "newCommandTimeout": 120,
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "systemPort": 6727,
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "noReset": true,
+2020-06-16 06:29:42:677 - [debug] [35m[BaseDriver][39m   "autoGrantPermissions": true
+2020-06-16 06:29:42:678 - [debug] [35m[BaseDriver][39m }
+2020-06-16 06:29:42:681 - [35m[BaseDriver][39m SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2020-06-16 06:29:42:681 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:217:25)
+2020-06-16 06:29:42:681 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:145:18)
+2020-06-16 06:29:42:681 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps [as createSession] (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/commands/session.js:46:8)
+2020-06-16 06:29:42:682 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:151:43)
+2020-06-16 06:29:42:682 - [35m[BaseDriver][39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:362:43)
+2020-06-16 06:29:42:682 - [35m[BaseDriver][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-06-16 06:29:42:682 - [35m[BaseDriver][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:377:13)
+2020-06-16 06:29:42:682 - [35m[BaseDriver][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:491:14)
+2020-06-16 06:29:42:682 - [35m[BaseDriver][39m     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/protocol/protocol.js:285:21)
+2020-06-16 06:29:42:683 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+2020-06-16 06:29:42:683 - [debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1592260182683 (06:29:42 GMT+0800 (China Standard Time))
+2020-06-16 06:29:42:683 - [debug] [35m[MJSONWP][39m Encountered internal error running command: SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2020-06-16 06:29:42:683 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:217:25)
+2020-06-16 06:29:42:683 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:145:18)
+2020-06-16 06:29:42:684 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps [as createSession] (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/commands/session.js:46:8)
+2020-06-16 06:29:42:684 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:151:43)
+2020-06-16 06:29:42:684 - [debug] [35m[MJSONWP][39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:362:43)
+2020-06-16 06:29:42:684 - [debug] [35m[MJSONWP][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-06-16 06:29:42:684 - [debug] [35m[MJSONWP][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:377:13)
+2020-06-16 06:29:42:684 - [debug] [35m[MJSONWP][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:491:14)
+2020-06-16 06:29:42:685 - [debug] [35m[MJSONWP][39m     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/protocol/protocol.js:285:21)
+2020-06-16 06:29:42:686 - [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m19 ms - 199[39m
+2020-06-16 06:29:42:686 - [35m[HTTP][39m [90m[39m
+2020-06-16 06:29:42:777 - [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+2020-06-16 06:29:42:778 - [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:udid":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]},"desiredCapabilities":{"platformName":"Android","udid":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true}}[39m
+2020-06-16 06:29:42:778 - [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","udid":"emulator-5554","appPackage":"com.xueqiu.android","platformVersion":"9","appActivity":".view.WelcomeActivityAlias","newCommandTimeout":120,"systemPort":6727,"noReset":true,"autoGrantPermissions":true},null,{"firstMatch":[{"platformName":"Android","appium:udid":"emulator-5554","appium:appPackage":"com.xueqiu.android","appium:platformVersion":"9","appium:appActivity":".view.WelcomeActivityAlias","appium:newCommandTimeout":120,"appium:systemPort":6727,"appium:noReset":true,"appium:autoGrantPermissions":true}]}]
+2020-06-16 06:29:42:778 - [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1592260182778 (06:29:42 GMT+0800 (China Standard Time))
+2020-06-16 06:29:42:779 - [35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank
+2020-06-16 06:29:42:779 - [35m[Appium][39m Trying to fix W3C capabilities by merging them with JSONWP caps
+2020-06-16 06:29:42:780 - [35m[BaseDriver][39m The capabilities ["udid","appPackage","platformVersion","appActivity","newCommandTimeout","systemPort","noReset","autoGrantPermissions"] are not standard capabilities and should have an extension prefix
+2020-06-16 06:29:42:780 - [35m[Appium][39m Could not parse fixed W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol
+2020-06-16 06:29:42:781 - [35m[Appium][39m 
+2020-06-16 06:29:42:781 - [35m[Appium][39m ======================================================================
+2020-06-16 06:29:42:781 - [35m[Appium][39m   DEPRECATION WARNING:
+2020-06-16 06:29:42:781 - [35m[Appium][39m 
+2020-06-16 06:29:42:781 - [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+2020-06-16 06:29:42:782 - [35m[Appium][39m   capabilities for this Android session
+2020-06-16 06:29:42:782 - [35m[Appium][39m 
+2020-06-16 06:29:42:782 - [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+2020-06-16 06:29:42:782 - [35m[Appium][39m   UiAutomator2 Driver
+2020-06-16 06:29:42:782 - [35m[Appium][39m 
+2020-06-16 06:29:42:782 - [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+2020-06-16 06:29:42:782 - [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+2020-06-16 06:29:42:783 - [35m[Appium][39m   platforms
+2020-06-16 06:29:42:783 - [35m[Appium][39m 
+2020-06-16 06:29:42:783 - [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+2020-06-16 06:29:42:783 - [35m[Appium][39m   'automationName=UiAutomator1'
+2020-06-16 06:29:42:783 - [35m[Appium][39m 
+2020-06-16 06:29:42:783 - [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+2020-06-16 06:29:42:783 - [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+2020-06-16 06:29:42:784 - [35m[Appium][39m 
+2020-06-16 06:29:42:784 - [35m[Appium][39m   For more information about drivers, please visit 
+2020-06-16 06:29:42:784 - [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-06-16 06:29:42:785 - [35m[Appium][39m   'Drivers' menu
+2020-06-16 06:29:42:785 - [35m[Appium][39m 
+2020-06-16 06:29:42:786 - [35m[Appium][39m ======================================================================
+2020-06-16 06:29:42:786 - [35m[Appium][39m 
+2020-06-16 06:29:42:787 - [35m[Appium][39m Appium v1.14.1 creating new AndroidUiautomator2Driver (v1.34.0) session
+2020-06-16 06:29:42:788 - [35m[Appium][39m Capabilities:
+2020-06-16 06:29:42:789 - [35m[Appium][39m   platformName: Android
+2020-06-16 06:29:42:789 - [35m[Appium][39m   udid: emulator-5554
+2020-06-16 06:29:42:789 - [35m[Appium][39m   appPackage: com.xueqiu.android
+2020-06-16 06:29:42:789 - [35m[Appium][39m   platformVersion: 9
+2020-06-16 06:29:42:790 - [35m[Appium][39m   appActivity: .view.WelcomeActivityAlias
+2020-06-16 06:29:42:790 - [35m[Appium][39m   newCommandTimeout: 120
+2020-06-16 06:29:42:790 - [35m[Appium][39m   systemPort: 6727
+2020-06-16 06:29:42:790 - [35m[Appium][39m   noReset: true
+2020-06-16 06:29:42:790 - [35m[Appium][39m   autoGrantPermissions: true
+2020-06-16 06:29:42:792 - [debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+2020-06-16 06:29:42:792 - [debug] [35m[BaseDriver][39m   "platformName": "Android",
+2020-06-16 06:29:42:792 - [debug] [35m[BaseDriver][39m   "udid": "emulator-5554",
+2020-06-16 06:29:42:793 - [debug] [35m[BaseDriver][39m   "appPackage": "com.xueqiu.android",
+2020-06-16 06:29:42:793 - [debug] [35m[BaseDriver][39m   "platformVersion": "9",
+2020-06-16 06:29:42:793 - [debug] [35m[BaseDriver][39m   "appActivity": ".view.WelcomeActivityAlias",
+2020-06-16 06:29:42:793 - [debug] [35m[BaseDriver][39m   "newCommandTimeout": 120,
+2020-06-16 06:29:42:793 - [debug] [35m[BaseDriver][39m   "systemPort": 6727,
+2020-06-16 06:29:42:793 - [debug] [35m[BaseDriver][39m   "noReset": true,
+2020-06-16 06:29:42:794 - [debug] [35m[BaseDriver][39m   "autoGrantPermissions": true
+2020-06-16 06:29:42:794 - [debug] [35m[BaseDriver][39m }
+2020-06-16 06:29:42:796 - [35m[BaseDriver][39m SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2020-06-16 06:29:42:796 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:217:25)
+2020-06-16 06:29:42:796 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:145:18)
+2020-06-16 06:29:42:796 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.validateDesiredCaps [as createSession] (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/commands/session.js:46:8)
+2020-06-16 06:29:42:797 - [35m[BaseDriver][39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:151:43)
+2020-06-16 06:29:42:797 - [35m[BaseDriver][39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:362:43)
+2020-06-16 06:29:42:797 - [35m[BaseDriver][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-06-16 06:29:42:797 - [35m[BaseDriver][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:377:13)
+2020-06-16 06:29:42:797 - [35m[BaseDriver][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:491:14)
+2020-06-16 06:29:42:797 - [35m[BaseDriver][39m     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/protocol/protocol.js:285:21)
+2020-06-16 06:29:42:797 - [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+2020-06-16 06:29:42:798 - [debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1592260182798 (06:29:42 GMT+0800 (China Standard Time))
+2020-06-16 06:29:42:798 - [debug] [35m[MJSONWP][39m Encountered internal error running command: SessionNotCreatedError: A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): 'deviceName' can't be blank
+2020-06-16 06:29:42:798 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:217:25)
+2020-06-16 06:29:42:798 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:145:18)
+2020-06-16 06:29:42:798 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.validateDesiredCaps [as createSession] (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/commands/session.js:46:8)
+2020-06-16 06:29:42:798 - [debug] [35m[MJSONWP][39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-driver@1.34.0@appium-uiautomator2-driver/lib/driver.js:151:43)
+2020-06-16 06:29:42:799 - [debug] [35m[MJSONWP][39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:362:43)
+2020-06-16 06:29:42:799 - [debug] [35m[MJSONWP][39m     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-06-16 06:29:42:799 - [debug] [35m[MJSONWP][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/basedriver/driver.js:377:13)
+2020-06-16 06:29:42:799 - [debug] [35m[MJSONWP][39m     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:491:14)
+2020-06-16 06:29:42:799 - [debug] [35m[MJSONWP][39m     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/_appium-base-driver@3.20.1@appium-base-driver/lib/protocol/protocol.js:285:21)
+2020-06-16 06:29:42:800 - [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m22 ms - 199[39m
+2020-06-16 06:29:42:800 - [35m[HTTP][39m [90m[39m
+2020-06-16 06:29:43:221 - [35m[Appium][39m Received SIGTERM - shutting down

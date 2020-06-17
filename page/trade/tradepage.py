@@ -22,14 +22,14 @@ class TradePage(BasePage):
     _ss=(MobileBy.ACCESSIBILITY_ID,"开户服务由平安证券提供")
 
     def open_hs(self):
-        self.find(self._open_hs).click()
+        self.find_element(self._open_hs).click()
         # self.driver.find_element(*self._open_hs).click()
         # WebDriverWait(self.driver,30,0.1).until(expected_conditions.visibility_of_element_located(self._ss))
         # self.driver.find_element_by_id('phone-number').send_keys("18612977085")
         self.driver.find_element_by_android_uiautomator('new UiSelector().resourceId("phone-number")').send_keys("111")
         return self
     def us_trade(self):
-        self.driver.find_element(*self._us_trade).click()
+        self.find_element(self._us_trade).click()
 
         return self
 

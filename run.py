@@ -16,11 +16,10 @@ log=logger()
 
 device_infos = [
         {"platformVersion": "7.1.2", "serverPort": 4726, "deviceName": "5483e9c3"},
-        # {"platformVersion": "9", "serverPort": 4727, "deviceName": "emulator-5554"}
+        {"platformVersion": "9", "serverPort": 4727, "deviceName": "emulator-5554"}
     ]
 def run_pytest(device_info):
-    #多设备每个设备生成单独的result
-    pytest.main([f"--cmdopt={device_info}","--alluredir","./report/allure_result_{0}".format(device_info['deviceName'])])
+    pytest.main([f"--cmdopt={device_info}","./test_case","--alluredir","./report/allure_result"])
 
 def pytest_start():
 
@@ -37,17 +36,16 @@ def generate_report():
         # if not os.path.exists(global_config.REPORT_RESULT_PATH):
         #     os.mkdir(global_config.REPORT_RESULT_PATH)
     #多设备针对每个设备生成单独的report
-    for device in device_infos:
-        os.system(f"allure generate {global_config.REPORT_RESULT_PATH}_{device['deviceName']} -o {global_config.REPORT_END_PATH}_{device['deviceName']} --clean")
+    os.system(f"allure generate {global_config.REPORT_RESULT_PATH} -o {global_config.REPORT_END_PATH} --clean")
             # 复制history文件夹，在本地生成趋势图
-        REPORT_RESULT_FILES=global_config.REPORT_RESULT_PATH+"_"+device['deviceName']
-        files = os.listdir(REPORT_RESULT_FILES)
-        result_history_dir = os.path.join(REPORT_RESULT_FILES, "history")
-        # 如果不存在则先创建文件夹
-        if not os.path.exists(result_history_dir):
-            os.mkdir(result_history_dir)
-        for file in files:
-            shutil.copy(os.path.join(REPORT_RESULT_FILES, file), result_history_dir)
+    REPORT_RESULT_FILES=global_config.REPORT_RESULT_PATH
+    files = os.listdir(REPORT_RESULT_FILES)
+    result_history_dir = os.path.join(REPORT_RESULT_FILES, "history")
+    # 如果不存在则先创建文件夹
+    if not os.path.exists(result_history_dir):
+        os.mkdir(result_history_dir)
+    for file in files:
+        shutil.copy(os.path.join(REPORT_RESULT_FILES, file), result_history_dir)
 
 
 

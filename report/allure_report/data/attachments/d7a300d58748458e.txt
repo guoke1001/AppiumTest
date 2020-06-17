@@ -1,0 +1,5 @@
+2020-06-16 06:30:30,318 DEFAULT INFO appium -p 4726 -bp 6726 --log-timestamp --local-timezone
+2020-06-16 06:30:35,330 DEFAULT INFO 读取配置文件成功
+2020-06-16 06:30:35,334 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-16 06:30:50,216 DEFAULT INFO 启动App成功
+2020-06-16 06:31:02,724 DEFAULT INFO 贵州茅台

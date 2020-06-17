@@ -1,0 +1,121 @@
+{
+  "uid" : "d6ea58b83fda5d47",
+  "name" : "test_open_hs",
+  "fullName" : "test_case.test_trade.TestTrade#test_open_hs",
+  "historyId" : "ab47321d9670dcb080fb66da8d632260",
+  "time" : {
+    "start" : 1592260298194,
+    "stop" : 1592260310181,
+    "duration" : 11987
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1592260286773,
+      "stop" : 1592260286773,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "common_driver",
+    "time" : {
+      "start" : 1592260286773,
+      "stop" : 1592260298193,
+      "duration" : 11420
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "21f97a9635d386b0",
+      "name" : "log",
+      "source" : "21f97a9635d386b0.txt",
+      "type" : "text/plain",
+      "size" : 382
+    }, {
+      "uid" : "4ec0791b5727bcbd",
+      "name" : "stderr",
+      "source" : "4ec0791b5727bcbd.txt",
+      "type" : "text/plain",
+      "size" : 386
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "common_driver::0",
+    "time" : {
+      "start" : 1592260310181,
+      "stop" : 1592260310529,
+      "duration" : 348
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_trade"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTrade"
+  }, {
+    "name" : "host",
+    "value" : "192.168.0.105"
+  }, {
+    "name" : "thread",
+    "value" : "94149-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_trade"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6ea58b83fda5d47.json",
+  "parameterValues" : [ ]
+}

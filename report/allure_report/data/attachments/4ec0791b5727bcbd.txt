@@ -1,0 +1,4 @@
+2020-06-16 06:31:26,774 DEFAULT INFO 读取配置文件成功
+2020-06-16 06:31:26,775 DEFAULT INFO {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+2020-06-16 06:31:38,184 DEFAULT INFO 启动App成功
+2020-06-16 06:31:46,721 DEFAULT INFO ['NATIVE_APP']

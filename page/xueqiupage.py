@@ -62,27 +62,23 @@ class XueQiuPage(BasePage):
     #
 
     def loading_page(self):
-        # WebDriverWait(self.driver, 10, 0.1).until(expected_conditions.visibility_of_element_located((By.ID,"com.xueqiu.android:id/tv_skip")))
 
-        self.find(self._skill_loading).click()
+        self.find_element(self._skill_loading).click()
         return self
     def goto_search(self):
 
         self.driver.find_element_by_id("com.xueqiu.android:id/home_search").click()
         return SearchPage(self.driver)
     def goto_trade(self):
-        # WebDriverWait(self.driver,10).until(expected_conditions.visibility_of_element_located((By.XPATH,"//*[@text='交易']")))
-
-        self.find((By.XPATH,"//*[@text='交易']")).click()
+        self.find_element((By.XPATH,"//*[@text='交易']")).click()
         lo.info(self.driver.contexts)
         return TradePage(self.driver)
     def goto_profile(self):
-        WebDriverWait(self.driver,10).until(expected_conditions.visibility_of_element_located((By.XPATH,"//*[@text='我的']")))
         self.driver.find_element_by_xpath("//*[@text='我的']").click()
         return Use_Profile_Page(self.driver)
     def goto_xueqiu(self):
         self.driver.find_element_by_xpath("//*[@text='雪球']")
         return Xue_Qiu_Page(self.driver)
     def goto_hq(self):
-        self.find(self._hq).click()
+        self.find_element(self._hq).click()
         return Hang_Qing_Page(self.driver)

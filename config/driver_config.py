@@ -1,7 +1,6 @@
 #coding=utf-8
 __author__ = 'tangyao'
 
-import multiprocessing
 import os
 import subprocess
 from datetime import datetime
@@ -11,7 +10,7 @@ import yaml
 from appium import webdriver
 
 from config.log_config import logger
-from config.global_config import project_path, IMPLICITLY_WAIT_TIME
+from config.global_config import project_path
 
 log=logger()
 class DriverConfig:
@@ -21,13 +20,12 @@ class DriverConfig:
         cmd="appium -p {0} -bp {1} -U {2} --log-timestamp --local-timezone".format(self.device_info['serverPort'],self.device_info["serverPort"]+2000,
                                                   self.device_info["deviceName"])
         log.info(cmd)
-        # os.system(cmd)
         subprocess.Popen(cmd,shell=True,stdout=open("./logs/{0}_{1}_appium.log".format(datetime.now().strftime("%Y-%m-%d_%H:%M:%S"),device_info["deviceName"]),'a'),stderr=subprocess.STDOUT)
         sleep(5) #防止appium服务没有完全启动就执行测试报错
 
-    def get_driver(self,automationName='appium'):
+    def get_driver(self):
         # 配置yaml文件路径
-        DESIRED_CAPS_PATH=os.path.join(project_path,"yaml","desired_caps.yaml")
+        DESIRED_CAPS_PATH=os.path.join(project_path,"yamls","desired_caps.yamls")
         with open(DESIRED_CAPS_PATH,encoding="utf-8") as file:
             data=yaml.load(file,Loader=yaml.FullLoader)
 
@@ -37,6 +35,7 @@ class DriverConfig:
             caps = {}
             caps["platformName"] = data["platformName"]
             caps["deviceName"] = self.device_info["deviceName"]
+            caps["udid"] = self.device_info["deviceName"]
             caps["appPackage"] = data["appPackage"]
             caps['platformVersion'] = self.device_info["platformVersion"]
             caps["appActivity"] = data["appActivity"]
@@ -46,8 +45,7 @@ class DriverConfig:
             caps['systemPort'] = self.system_port  # 重要，不定义会出现socket hang up错误！
             # caps["app"] = data["app"]
             caps["noReset"] = data["noReset"] #不重新安装app
-            if automationName!='appium':
-                caps['automationName']=automationName
+            caps['automationName']=data["automationName"]
             # 权限弹窗自动处理
             caps["autoGrantPermissions"] = data["autoGrantPermissions"] #处理权限弹窗 True默认授权
             driver=webdriver.Remote("http://localhost:{0}/wd/hub".format(str(self.device_info['serverPort'])), caps)

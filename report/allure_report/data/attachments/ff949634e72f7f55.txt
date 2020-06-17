@@ -1,0 +1,4 @@
+INFO     DEFAULT:driver_config.py:35 读取配置文件成功
+INFO     DEFAULT:driver_config.py:36 {'platformName': 'Android', 'appPackage': 'com.xueqiu.android', 'appActivity': '.view.WelcomeActivityAlias', 'autoGrantPermissions': True, 'noReset': True, 'newCommandTimeout': 120}
+INFO     DEFAULT:driver_config.py:58 启动App成功
+INFO     DEFAULT:xueqiupage.py:74 ['NATIVE_APP']

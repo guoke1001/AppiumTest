@@ -7,3 +7,4 @@
 "autoGrantPermissions": true
 "noReset": true
 "newCommandTimeout": 120
+"automationName": "UiAutomator2"

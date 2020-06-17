@@ -16,8 +16,8 @@ class Use_Profile_Page(BasePage):
 
     def login_by_webchat(self):
         log.info("page")
-        self.driver.find_element(*self._login_webchat).click()
-        text=self.find(self.toast_locator()).text
+        self.find_element(self._login_webchat).click()
+        text=self.find_element(BasePage.toast_locator()).text
         log.info('111111111111111'+text)
         if text!=None:
             self.screen_shot("登录")

@@ -3,12 +3,13 @@ __author__ = 'tangyao'
 
 from appium.webdriver.webdriver import WebDriver
 
+from common.base_page import BasePage
+
 '''
 description:手势操作
 '''
-class gesture_mainpulation:
-    def __init__(self,driver:WebDriver):
-        self.driver=driver
+class gesture_mainpulation(BasePage):
+    def __init__(self):
         self.x = self.driver.get_window_size()['width']
         self.y = self.driver.get_window_size()['height']
     def swipe_left(self):

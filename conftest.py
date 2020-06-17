@@ -1,7 +1,6 @@
 #coding=utf-8
 __author__ = 'tangyao'
 
-from time import sleep
 
 import pytest
 
@@ -24,7 +23,6 @@ def common_driver(cmdopt):
     if base_driver==None:
         base_driver=DriverConfig(eval(cmdopt))
     driver=base_driver.get_driver()
-    sleep(2)
     yield driver
     driver.close_app()
     driver.quit()
