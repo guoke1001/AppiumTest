@@ -25,7 +25,7 @@ class DriverConfig:
 
     def get_driver(self):
         # 配置yaml文件路径
-        DESIRED_CAPS_PATH=os.path.join(project_path,"yamls","desired_caps.yamls")
+        DESIRED_CAPS_PATH=os.path.join(project_path,"yamls","desired_caps.yaml")
         with open(DESIRED_CAPS_PATH,encoding="utf-8") as file:
             data=yaml.load(file,Loader=yaml.FullLoader)
 

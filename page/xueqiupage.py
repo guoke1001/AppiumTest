@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from common.base_page import BasePage
 from config.log_config import logger
-from page.HANGQING.hang_qing_page import Hang_Qing_Page
+from page.hangqing.hang_qing_page import Hang_Qing_Page
 from page.search.searchpage import SearchPage
 from page.trade.tradepage import TradePage
 from page.use_profile.use_profile_page import Use_Profile_Page

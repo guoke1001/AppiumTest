@@ -1,10 +1,8 @@
 #coding=utf-8
 __author__ = 'tangyao'
 
-import multiprocessing
 import os
 import shutil
-from datetime import datetime
 
 import pytest
 from multiprocessing import Pool
@@ -33,9 +31,8 @@ def close_appium_server():
         os.system("lsof -n -i:{0}".format(format(i.get('serverPort'))+" | grep LISTEN | awk '{print $2}' | xargs kill"))
 def generate_report():
     log.info("生成报告……")
-        # if not os.path.exists(global_config.REPORT_RESULT_PATH):
-        #     os.mkdir(global_config.REPORT_RESULT_PATH)
-    #多设备针对每个设备生成单独的report
+    if not os.path.exists(global_config.REPORT_RESULT_PATH):
+        os.mkdir(global_config.REPORT_RESULT_PATH)
     os.system(f"allure generate {global_config.REPORT_RESULT_PATH} -o {global_config.REPORT_END_PATH} --clean")
             # 复制history文件夹，在本地生成趋势图
     REPORT_RESULT_FILES=global_config.REPORT_RESULT_PATH
